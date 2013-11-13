@@ -17,3 +17,8 @@ project.xcworkspace
 *.DS_Store
 *.swp
 *.out
+appledoc
+
+#build
+target
+build

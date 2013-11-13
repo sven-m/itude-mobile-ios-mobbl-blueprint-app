@@ -1,0 +1,10 @@
+<Configuration xmlns="http://itude.com/schemas/MB/2.0">
+	<Model>
+        <Domains>
+            <Domain name="list_gender" type="string">
+                <DomainValidator title="Man" value="male"/>
+                <DomainValidator title="Vrouw" value="female"/>
+            </Domain>
+        </Domains>
+	</Model>
+</Configuration>
