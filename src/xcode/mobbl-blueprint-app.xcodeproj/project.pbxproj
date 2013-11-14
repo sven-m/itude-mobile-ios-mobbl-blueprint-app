@@ -148,8 +148,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C71AC207183379E000A189F1 /* libsqlite3.0.dylib in Frameworks */,
 				C707E94E1833633000046DF2 /* libmobbl-core-lib.a in Frameworks */,
+				C71AC207183379E000A189F1 /* libsqlite3.0.dylib in Frameworks */,
 				03F090DF13C7550500A58AE7 /* SystemConfiguration.framework in Frameworks */,
 				C71AC20B18337A1000A189F1 /* QuartzCore.framework in Frameworks */,
 				03F090E013C7550500A58AE7 /* UIKit.framework in Frameworks */,
@@ -601,7 +601,9 @@
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
+					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-mobbl-blueprint-app/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-all_load",
@@ -634,7 +636,9 @@
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
+					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-mobbl-blueprint-app/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-licucore",
@@ -761,7 +765,9 @@
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
+					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-mobbl-blueprint-app/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-licucore",
