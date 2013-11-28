@@ -64,6 +64,7 @@
 		C74DAAD6183269D400580179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAAA2183269D400580179 /* main.m */; };
 		C74DAAD7183269D400580179 /* mobbl-blueprint-app-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */; };
 		C7784D6B1834F478003D7F1B /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7784D6A1834F478003D7F1B /* libmobbl-core-lib.a */; };
+		C792DF9B1847A7F900E98C77 /* dialogs_mobbl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +143,7 @@
 		C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mobbl-blueprint-app-Info.plist"; sourceTree = "<group>"; };
 		C74DAAA4183269D400580179 /* mobbl-blueprint-app.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mobbl-blueprint-app.pch"; sourceTree = "<group>"; };
 		C7784D6A1834F478003D7F1B /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/xcode-deps/libs/Release/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
+		C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dialogs_mobbl.xmlx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,6 +336,7 @@
 		C74DAA75183269D300580179 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */,
 				C74DAA76183269D300580179 /* actions.xmlx */,
 				C74DAA77183269D300580179 /* config.xmlx */,
 				C74DAA78183269D300580179 /* dialogs.xmlx */,
@@ -529,6 +532,7 @@
 				C74DAABB183269D400580179 /* endpoints.xmlx in Resources */,
 				C74DAABA183269D400580179 /* applicationproperties.xmlx in Resources */,
 				C74DAAB4183269D400580179 /* config.xmlx in Resources */,
+				C792DF9B1847A7F900E98C77 /* dialogs_mobbl.xmlx in Resources */,
 				C74DAAD0183269D400580179 /* Tab_Home.png in Resources */,
 				C74DAAB8183269D400580179 /* outcomes.xmlx in Resources */,
 				C74DAAC2183269D400580179 /* Background-default.png in Resources */,
@@ -603,8 +607,6 @@
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
-					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-mobbl-blueprint-app/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
-					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-mobbl-blueprint-app/target/xcode-deps/libs/Release/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -639,8 +641,6 @@
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
-					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-mobbl-blueprint-app/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
-					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-mobbl-blueprint-app/target/xcode-deps/libs/Release/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -769,8 +769,6 @@
 					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
 					"/usr/local/include/**",
 					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
-					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-mobbl-blueprint-app/target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib",
-					"/Users/Wiebe/Documents/workspaceJuno2/ItudeMobile/IOS/itude-mobile-ios-mobbl-blueprint-app/target/xcode-deps/libs/Release/com.itude.mobile.ios.mobbl/mobbl-core-lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
