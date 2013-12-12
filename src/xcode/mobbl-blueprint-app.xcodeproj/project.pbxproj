@@ -65,6 +65,8 @@
 		C74DAAD7183269D400580179 /* mobbl-blueprint-app-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */; };
 		C7784D6B1834F478003D7F1B /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7784D6A1834F478003D7F1B /* libmobbl-core-lib.a */; };
 		C792DF9B1847A7F900E98C77 /* dialogs_mobbl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */; };
+		C7F62EE8185A206B00E9B6E9 /* MBDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F62EE6185A206B00E9B6E9 /* MBDatePicker.xib */; };
+		C7F62EE9185A206B00E9B6E9 /* MBPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F62EE7185A206B00E9B6E9 /* MBPicker.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,6 +146,8 @@
 		C74DAAA4183269D400580179 /* mobbl-blueprint-app.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mobbl-blueprint-app.pch"; sourceTree = "<group>"; };
 		C7784D6A1834F478003D7F1B /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/xcode-deps/libs/Release/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 		C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dialogs_mobbl.xmlx; sourceTree = "<group>"; };
+		C7F62EE6185A206B00E9B6E9 /* MBDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBDatePicker.xib; sourceTree = "<group>"; };
+		C7F62EE7185A206B00E9B6E9 /* MBPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBPicker.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +329,7 @@
 		C74DAA74183269D300580179 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C7F62EE5185A206B00E9B6E9 /* Xibs */,
 				C74DAA75183269D300580179 /* Config */,
 				C74DAA7D183269D400580179 /* Documents */,
 				C74DAA82183269D400580179 /* Images */,
@@ -439,6 +444,15 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C7F62EE5185A206B00E9B6E9 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				C7F62EE6185A206B00E9B6E9 /* MBDatePicker.xib */,
+				C7F62EE7185A206B00E9B6E9 /* MBPicker.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -520,6 +534,7 @@
 				C74DAAC3183269D400580179 /* Background-default@2x.png in Resources */,
 				C74DAAC1183269D400580179 /* iTunesArtwork.png in Resources */,
 				C74DAAC8183269D400580179 /* Icon_Tab_cart.png.png in Resources */,
+				C7F62EE9185A206B00E9B6E9 /* MBPicker.xib in Resources */,
 				C74DAAD3183269D400580179 /* Tab_Info@2x.png in Resources */,
 				C74DAAD1183269D400580179 /* Tab_Home@2x.png in Resources */,
 				C74DAAB7183269D400580179 /* domains.xmlx in Resources */,
@@ -531,6 +546,7 @@
 				C74DAAC9183269D400580179 /* Icon_Tab_cart@2x.png in Resources */,
 				C74DAABB183269D400580179 /* endpoints.xmlx in Resources */,
 				C74DAABA183269D400580179 /* applicationproperties.xmlx in Resources */,
+				C7F62EE8185A206B00E9B6E9 /* MBDatePicker.xib in Resources */,
 				C74DAAB4183269D400580179 /* config.xmlx in Resources */,
 				C792DF9B1847A7F900E98C77 /* dialogs_mobbl.xmlx in Resources */,
 				C74DAAD0183269D400580179 /* Tab_Home.png in Resources */,
