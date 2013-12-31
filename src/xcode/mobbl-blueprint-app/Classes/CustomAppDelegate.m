@@ -55,7 +55,8 @@
     [[MBViewBuilderFactory sharedInstance] setStyleHandler:[[CustomStyleHandler new] autorelease]];
 	
 	// set the Custom datahandlers
-	[[MBDataManagerService sharedInstance] registerDataHandler:[[CustomSoapServiceDataHandler new] autorelease] withName:@"PPSoapServiceDataHandler"];
+    [[MBDataManagerService sharedInstance] registerDataHandler:[[CustomSoapServiceDataHandler new] autorelease] withName:@"CustomSoapServiceDataHandler"];
+
     
 	// Delete any cached documents at startup
 	[MBCacheManager expireAllDocuments];

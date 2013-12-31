@@ -19,7 +19,6 @@
 		C74DAAA7183269D400580179 /* CustomTemporaryAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA54183269D300580179 /* CustomTemporaryAction.m */; };
 		C74DAAA8183269D400580179 /* CustomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA56183269D300580179 /* CustomAppDelegate.m */; };
 		C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA58183269D300580179 /* CustomApplicationFactory.m */; };
-		C74DAAAA183269D400580179 /* CustomSoapServiceDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA5D183269D300580179 /* CustomSoapServiceDataHandler.m */; };
 		C74DAAAB183269D400580179 /* NSDateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA60183269D300580179 /* NSDateUtilities.m */; };
 		C74DAAAE183269D400580179 /* CustomBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA69183269D300580179 /* CustomBasicViewController.m */; };
 		C74DAAAF183269D400580179 /* CustomSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA6C183269D300580179 /* CustomSplashScreen.m */; };
@@ -63,6 +62,7 @@
 		C74DAAD5183269D400580179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA0183269D400580179 /* InfoPlist.strings */; };
 		C74DAAD6183269D400580179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAAA2183269D400580179 /* main.m */; };
 		C74DAAD7183269D400580179 /* mobbl-blueprint-app-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */; };
+		C75A44EA18729D580014F708 /* CustomSoapServiceDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A44E918729D580014F708 /* CustomSoapServiceDataHandler.m */; };
 		C7784D6B1834F478003D7F1B /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7784D6A1834F478003D7F1B /* libmobbl-core-lib.a */; };
 		C792DF9B1847A7F900E98C77 /* dialogs_mobbl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */; };
 		C7F62EE8185A206B00E9B6E9 /* MBDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F62EE6185A206B00E9B6E9 /* MBDatePicker.xib */; };
@@ -92,8 +92,6 @@
 		C74DAA57183269D300580179 /* CustomApplicationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomApplicationFactory.h; sourceTree = "<group>"; };
 		C74DAA58183269D300580179 /* CustomApplicationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomApplicationFactory.m; sourceTree = "<group>"; };
 		C74DAA59183269D300580179 /* CustomConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomConstants.h; sourceTree = "<group>"; };
-		C74DAA5C183269D300580179 /* CustomSoapServiceDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSoapServiceDataHandler.h; sourceTree = "<group>"; };
-		C74DAA5D183269D300580179 /* CustomSoapServiceDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSoapServiceDataHandler.m; sourceTree = "<group>"; };
 		C74DAA5F183269D300580179 /* NSDateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateUtilities.h; sourceTree = "<group>"; };
 		C74DAA60183269D300580179 /* NSDateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtilities.m; sourceTree = "<group>"; };
 		C74DAA68183269D300580179 /* CustomBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBasicViewController.h; sourceTree = "<group>"; };
@@ -144,6 +142,8 @@
 		C74DAAA2183269D400580179 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mobbl-blueprint-app-Info.plist"; sourceTree = "<group>"; };
 		C74DAAA4183269D400580179 /* mobbl-blueprint-app.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mobbl-blueprint-app.pch"; sourceTree = "<group>"; };
+		C75A44E818729D580014F708 /* CustomSoapServiceDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSoapServiceDataHandler.h; sourceTree = "<group>"; };
+		C75A44E918729D580014F708 /* CustomSoapServiceDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSoapServiceDataHandler.m; sourceTree = "<group>"; };
 		C7784D6A1834F478003D7F1B /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/xcode-deps/libs/Release/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 		C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dialogs_mobbl.xmlx; sourceTree = "<group>"; };
 		C7F62EE6185A206B00E9B6E9 /* MBDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBDatePicker.xib; sourceTree = "<group>"; };
@@ -217,13 +217,13 @@
 		C74DAA4C183269D300580179 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C75A44E718729D580014F708 /* Services */,
 				C74DAA4D183269D300580179 /* Actions */,
 				C74DAA55183269D300580179 /* CustomAppDelegate.h */,
 				C74DAA56183269D300580179 /* CustomAppDelegate.m */,
 				C74DAA57183269D300580179 /* CustomApplicationFactory.h */,
 				C74DAA58183269D300580179 /* CustomApplicationFactory.m */,
 				C74DAA59183269D300580179 /* CustomConstants.h */,
-				C74DAA5A183269D300580179 /* Services */,
 				C74DAA5E183269D300580179 /* Util */,
 				C74DAA61183269D300580179 /* View */,
 			);
@@ -249,23 +249,6 @@
 				C74DAA54183269D300580179 /* CustomTemporaryAction.m */,
 			);
 			path = Temporary;
-			sourceTree = "<group>";
-		};
-		C74DAA5A183269D300580179 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				C74DAA5B183269D300580179 /* DataHandlers */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		C74DAA5B183269D300580179 /* DataHandlers */ = {
-			isa = PBXGroup;
-			children = (
-				C74DAA5C183269D300580179 /* CustomSoapServiceDataHandler.h */,
-				C74DAA5D183269D300580179 /* CustomSoapServiceDataHandler.m */,
-			);
-			path = DataHandlers;
 			sourceTree = "<group>";
 		};
 		C74DAA5E183269D300580179 /* Util */ = {
@@ -444,6 +427,15 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C75A44E718729D580014F708 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C75A44E818729D580014F708 /* CustomSoapServiceDataHandler.h */,
+				C75A44E918729D580014F708 /* CustomSoapServiceDataHandler.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C7F62EE5185A206B00E9B6E9 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -570,7 +562,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74DAAAA183269D400580179 /* CustomSoapServiceDataHandler.m in Sources */,
 				C74DAAB2183269D400580179 /* CustomStyleHandler.m in Sources */,
 				C74DAAA7183269D400580179 /* CustomTemporaryAction.m in Sources */,
 				C74DAAB0183269D400580179 /* CustomColor.m in Sources */,
@@ -580,6 +571,7 @@
 				C74DAAAB183269D400580179 /* NSDateUtilities.m in Sources */,
 				C74DAAAE183269D400580179 /* CustomBasicViewController.m in Sources */,
 				C74DAAD6183269D400580179 /* main.m in Sources */,
+				C75A44EA18729D580014F708 /* CustomSoapServiceDataHandler.m in Sources */,
 				C74DAAA6183269D400580179 /* GenericAction.m in Sources */,
 				C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */,
 				C74DAAB1183269D400580179 /* CustomStyleConstants.m in Sources */,
