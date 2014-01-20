@@ -63,21 +63,33 @@
 		C74DAAD6183269D400580179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAAA2183269D400580179 /* main.m */; };
 		C74DAAD7183269D400580179 /* mobbl-blueprint-app-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */; };
 		C75A44EA18729D580014F708 /* CustomSoapServiceDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A44E918729D580014F708 /* CustomSoapServiceDataHandler.m */; };
-		C7784D6B1834F478003D7F1B /* libmobbl-core-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7784D6A1834F478003D7F1B /* libmobbl-core-lib.a */; };
-		C792DF9B1847A7F900E98C77 /* dialogs_mobbl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */; };
+		C7D4451E188D0CA800052D2C /* mobbl-core-framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D4451D188D0CA800052D2C /* mobbl-core-framework.framework */; };
+		C7D44531188D1F4B00052D2C /* backButtonArrowInverted.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44521188D1F4B00052D2C /* backButtonArrowInverted.png */; };
+		C7D44532188D1F4B00052D2C /* backButtonArrowInverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44522188D1F4B00052D2C /* backButtonArrowInverted@2x.png */; };
+		C7D44533188D1F4B00052D2C /* backButtonCheveron.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44523188D1F4B00052D2C /* backButtonCheveron.png */; };
+		C7D44534188D1F4B00052D2C /* backButtonCheveron@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44524188D1F4B00052D2C /* backButtonCheveron@2x.png */; };
+		C7D44535188D1F4B00052D2C /* backButtonDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44525188D1F4B00052D2C /* backButtonDefault.png */; };
+		C7D44536188D1F4B00052D2C /* backButtonDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44526188D1F4B00052D2C /* backButtonDefault@2x.png */; };
+		C7D44537188D1F4B00052D2C /* backButtonIconArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44527188D1F4B00052D2C /* backButtonIconArrowWhite.png */; };
+		C7D44538188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44528188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png */; };
+		C7D44539188D1F4B00052D2C /* database.db in Resources */ = {isa = PBXBuildFile; fileRef = C7D44529188D1F4B00052D2C /* database.db */; };
+		C7D4453A188D1F4B00052D2C /* dialogs_mobbl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452A188D1F4B00052D2C /* dialogs_mobbl.xmlx */; };
+		C7D4453B188D1F4B00052D2C /* icon_font_down.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452B188D1F4B00052D2C /* icon_font_down.png */; };
+		C7D4453C188D1F4B00052D2C /* icon_font_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452C188D1F4B00052D2C /* icon_font_down@2x.png */; };
+		C7D4453D188D1F4B00052D2C /* icon_font_up.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452D188D1F4B00052D2C /* icon_font_up.png */; };
+		C7D4453E188D1F4B00052D2C /* icon_font_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452E188D1F4B00052D2C /* icon_font_up@2x.png */; };
+		C7D4453F188D1F4B00052D2C /* MBDatePicker.nib in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452F188D1F4B00052D2C /* MBDatePicker.nib */; };
+		C7D44540188D1F4B00052D2C /* MBPicker.nib in Resources */ = {isa = PBXBuildFile; fileRef = C7D44530188D1F4B00052D2C /* MBPicker.nib */; };
 		C7F62EE8185A206B00E9B6E9 /* MBDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F62EE6185A206B00E9B6E9 /* MBDatePicker.xib */; };
 		C7F62EE9185A206B00E9B6E9 /* MBPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F62EE7185A206B00E9B6E9 /* MBPicker.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03C1DDC413CC64400070706E /* itude-mobile-iphone-core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "itude-mobile-iphone-core.framework"; sourceTree = "<group>"; };
 		03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		03F090F213C7550500A58AE7 /* mobbl-blueprint-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobbl-blueprint-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03F0969913CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "itude-mobile-iphone-core-i386.framework"; sourceTree = "<group>"; };
 		03F239B513C6FFFB00E9BD32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03F239B713C6FFFB00E9BD32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03F239B913C6FFFB00E9BD32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C707E94D1833633000046DF2 /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/libs/Debug-iphonesimulator/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
 		C71AC206183379E000A189F1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		C71AC208183379F300A189F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C71AC20A18337A1000A189F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -144,8 +156,23 @@
 		C74DAAA4183269D400580179 /* mobbl-blueprint-app.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mobbl-blueprint-app.pch"; sourceTree = "<group>"; };
 		C75A44E818729D580014F708 /* CustomSoapServiceDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSoapServiceDataHandler.h; sourceTree = "<group>"; };
 		C75A44E918729D580014F708 /* CustomSoapServiceDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSoapServiceDataHandler.m; sourceTree = "<group>"; };
-		C7784D6A1834F478003D7F1B /* libmobbl-core-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmobbl-core-lib.a"; path = "../../target/xcode-deps/libs/Release/com.itude.mobile.ios.mobbl/mobbl-core-lib/libmobbl-core-lib.a"; sourceTree = "<group>"; };
-		C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dialogs_mobbl.xmlx; sourceTree = "<group>"; };
+		C7D4451D188D0CA800052D2C /* mobbl-core-framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "mobbl-core-framework.framework"; path = "../../target/xcode-deps/frameworks/Debug/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework"; sourceTree = "<group>"; };
+		C7D44521188D1F4B00052D2C /* backButtonArrowInverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButtonArrowInverted.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonArrowInverted.png"; sourceTree = "<group>"; };
+		C7D44522188D1F4B00052D2C /* backButtonArrowInverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backButtonArrowInverted@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonArrowInverted@2x.png"; sourceTree = "<group>"; };
+		C7D44523188D1F4B00052D2C /* backButtonCheveron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButtonCheveron.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonCheveron.png"; sourceTree = "<group>"; };
+		C7D44524188D1F4B00052D2C /* backButtonCheveron@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backButtonCheveron@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonCheveron@2x.png"; sourceTree = "<group>"; };
+		C7D44525188D1F4B00052D2C /* backButtonDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButtonDefault.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonDefault.png"; sourceTree = "<group>"; };
+		C7D44526188D1F4B00052D2C /* backButtonDefault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backButtonDefault@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonDefault@2x.png"; sourceTree = "<group>"; };
+		C7D44527188D1F4B00052D2C /* backButtonIconArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButtonIconArrowWhite.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonIconArrowWhite.png"; sourceTree = "<group>"; };
+		C7D44528188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backButtonIconArrowWhite@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonIconArrowWhite@2x.png"; sourceTree = "<group>"; };
+		C7D44529188D1F4B00052D2C /* database.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = database.db; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/database.db"; sourceTree = "<group>"; };
+		C7D4452A188D1F4B00052D2C /* dialogs_mobbl.xmlx */ = {isa = PBXFileReference; lastKnownFileType = text; name = dialogs_mobbl.xmlx; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/dialogs_mobbl.xmlx"; sourceTree = "<group>"; };
+		C7D4452B188D1F4B00052D2C /* icon_font_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_font_down.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_down.png"; sourceTree = "<group>"; };
+		C7D4452C188D1F4B00052D2C /* icon_font_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_font_down@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_down@2x.png"; sourceTree = "<group>"; };
+		C7D4452D188D1F4B00052D2C /* icon_font_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_font_up.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_up.png"; sourceTree = "<group>"; };
+		C7D4452E188D1F4B00052D2C /* icon_font_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_font_up@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_up@2x.png"; sourceTree = "<group>"; };
+		C7D4452F188D1F4B00052D2C /* MBDatePicker.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MBDatePicker.nib; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/MBDatePicker.nib"; sourceTree = "<group>"; };
+		C7D44530188D1F4B00052D2C /* MBPicker.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MBPicker.nib; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/MBPicker.nib"; sourceTree = "<group>"; };
 		C7F62EE6185A206B00E9B6E9 /* MBDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBDatePicker.xib; sourceTree = "<group>"; };
 		C7F62EE7185A206B00E9B6E9 /* MBPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBPicker.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7784D6B1834F478003D7F1B /* libmobbl-core-lib.a in Frameworks */,
+				C7D4451E188D0CA800052D2C /* mobbl-core-framework.framework in Frameworks */,
 				C71AC207183379E000A189F1 /* libsqlite3.0.dylib in Frameworks */,
 				03F090DF13C7550500A58AE7 /* SystemConfiguration.framework in Frameworks */,
 				C71AC20B18337A1000A189F1 /* QuartzCore.framework in Frameworks */,
@@ -175,6 +202,7 @@
 				C74DAA4B183269D300580179 /* mobbl-blueprint-app */,
 				03F239B413C6FFFB00E9BD32 /* Frameworks */,
 				03F239B213C6FFFB00E9BD32 /* Products */,
+				C7D44562188D223200052D2C /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,13 +217,10 @@
 		03F239B413C6FFFB00E9BD32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C7784D6A1834F478003D7F1B /* libmobbl-core-lib.a */,
+				C7D4451D188D0CA800052D2C /* mobbl-core-framework.framework */,
 				C71AC20A18337A1000A189F1 /* QuartzCore.framework */,
 				C71AC208183379F300A189F1 /* AVFoundation.framework */,
 				C71AC206183379E000A189F1 /* libsqlite3.0.dylib */,
-				C707E94D1833633000046DF2 /* libmobbl-core-lib.a */,
-				03C1DDC413CC64400070706E /* itude-mobile-iphone-core.framework */,
-				03F0969913CB331600A58AE7 /* itude-mobile-iphone-core-i386.framework */,
 				03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */,
 				03F239B513C6FFFB00E9BD32 /* UIKit.framework */,
 				03F239B713C6FFFB00E9BD32 /* Foundation.framework */,
@@ -324,7 +349,6 @@
 		C74DAA75183269D300580179 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				C792DF9A1847A7F900E98C77 /* dialogs_mobbl.xmlx */,
 				C74DAA76183269D300580179 /* actions.xmlx */,
 				C74DAA77183269D300580179 /* config.xmlx */,
 				C74DAA78183269D300580179 /* dialogs.xmlx */,
@@ -436,6 +460,29 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		C7D44562188D223200052D2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7D44521188D1F4B00052D2C /* backButtonArrowInverted.png */,
+				C7D44522188D1F4B00052D2C /* backButtonArrowInverted@2x.png */,
+				C7D44523188D1F4B00052D2C /* backButtonCheveron.png */,
+				C7D44524188D1F4B00052D2C /* backButtonCheveron@2x.png */,
+				C7D44525188D1F4B00052D2C /* backButtonDefault.png */,
+				C7D44526188D1F4B00052D2C /* backButtonDefault@2x.png */,
+				C7D44527188D1F4B00052D2C /* backButtonIconArrowWhite.png */,
+				C7D44528188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png */,
+				C7D44529188D1F4B00052D2C /* database.db */,
+				C7D4452A188D1F4B00052D2C /* dialogs_mobbl.xmlx */,
+				C7D4452B188D1F4B00052D2C /* icon_font_down.png */,
+				C7D4452C188D1F4B00052D2C /* icon_font_down@2x.png */,
+				C7D4452D188D1F4B00052D2C /* icon_font_up.png */,
+				C7D4452E188D1F4B00052D2C /* icon_font_up@2x.png */,
+				C7D4452F188D1F4B00052D2C /* MBDatePicker.nib */,
+				C7D44530188D1F4B00052D2C /* MBPicker.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C7F62EE5185A206B00E9B6E9 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -513,6 +560,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D44531188D1F4B00052D2C /* backButtonArrowInverted.png in Resources */,
+				C7D44532188D1F4B00052D2C /* backButtonArrowInverted@2x.png in Resources */,
+				C7D44533188D1F4B00052D2C /* backButtonCheveron.png in Resources */,
+				C7D44534188D1F4B00052D2C /* backButtonCheveron@2x.png in Resources */,
+				C7D44535188D1F4B00052D2C /* backButtonDefault.png in Resources */,
+				C7D44536188D1F4B00052D2C /* backButtonDefault@2x.png in Resources */,
+				C7D44537188D1F4B00052D2C /* backButtonIconArrowWhite.png in Resources */,
+				C7D44538188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png in Resources */,
+				C7D44539188D1F4B00052D2C /* database.db in Resources */,
+				C7D4453A188D1F4B00052D2C /* dialogs_mobbl.xmlx in Resources */,
+				C7D4453B188D1F4B00052D2C /* icon_font_down.png in Resources */,
+				C7D4453C188D1F4B00052D2C /* icon_font_down@2x.png in Resources */,
+				C7D4453D188D1F4B00052D2C /* icon_font_up.png in Resources */,
+				C7D4453E188D1F4B00052D2C /* icon_font_up@2x.png in Resources */,
+				C7D4453F188D1F4B00052D2C /* MBDatePicker.nib in Resources */,
+				C7D44540188D1F4B00052D2C /* MBPicker.nib in Resources */,
 				C74DAAC6183269D400580179 /* Icon_Tab_calendar.png in Resources */,
 				C74DAAD2183269D400580179 /* Tab_Info.png in Resources */,
 				C74DAABC183269D400580179 /* InitialOutcomes.xmlx in Resources */,
@@ -540,7 +603,6 @@
 				C74DAABA183269D400580179 /* applicationproperties.xmlx in Resources */,
 				C7F62EE8185A206B00E9B6E9 /* MBDatePicker.xib in Resources */,
 				C74DAAB4183269D400580179 /* config.xmlx in Resources */,
-				C792DF9B1847A7F900E98C77 /* dialogs_mobbl.xmlx in Resources */,
 				C74DAAD0183269D400580179 /* Tab_Home.png in Resources */,
 				C74DAAB8183269D400580179 /* outcomes.xmlx in Resources */,
 				C74DAAC2183269D400580179 /* Background-default.png in Resources */,
@@ -598,7 +660,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mobbl-blueprint-app/Supporting Files/mobbl-blueprint-app.pch";
@@ -606,16 +671,14 @@
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
-					"\"$(SRCROOT)\"",
+					"/usr/include/**",
+					"\"$(SRCROOT)\"/**",
+					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
+					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/mobbl-blueprint-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
-					"/usr/local/include/**",
-					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -634,22 +697,23 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mobbl-blueprint-app/Supporting Files/mobbl-blueprint-app.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
-					"\"$(SRCROOT)\"",
+					"/usr/include/**",
+					"\"$(SRCROOT)\"/**",
+					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
+					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/mobbl-blueprint-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
-					"/usr/local/include/**",
-					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -683,7 +747,7 @@
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\\usr\\include/**";
+				HEADER_SEARCH_PATHS = "/usr/include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_CFLAGS[arch=*]" = "-DDEBUG";
@@ -710,7 +774,7 @@
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\\usr\\include/**";
+				HEADER_SEARCH_PATHS = "/usr/include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-licucore";
@@ -736,7 +800,7 @@
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\\usr\\include/**";
+				HEADER_SEARCH_PATHS = "/usr/include/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-licucore";
@@ -754,22 +818,23 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mobbl-blueprint-app/Supporting Files/mobbl-blueprint-app.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/headers/${BUILD_STYLE}-${PLATFORM_NAME}/**",
-					"\"$(SRCROOT)\"",
+					"/usr/include/**",
+					"\"$(SRCROOT)\"/**",
+					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
+					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/mobbl-blueprint-app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"${PROJECT_DIR}/../../target/xcode-deps/libs/${BUILD_STYLE}/**",
-					"/usr/local/include/**",
-					"${PROJECT_DIR}/../../target/libs/${BUILD_STYLE}-${PLATFORM_NAME}/com.itude.mobile.ios.mobbl/mobbl-core-lib",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lz",
