@@ -22,19 +22,6 @@
 #import "CustomStyleConstants.h"
 #import "CustomSoapServiceDataHandler.h"
 
-// Framework imports
-#import "MBCacheManager.h"
-#import "MBDataManagerService.h"
-#import "MBViewBuilderFactory.h"
-#import "MBCacheManager.h"
-#import "MBConfigurationDefinition.h"
-#import "MBDeviceType.h"
-#import "UncaughtExceptionHandler.h"
-#import "NSDateUtilities.h"
-#import "MBMacros.h"
-#import "MBLocalizationService.h"
-
-
 #define kAlertViewTakePill 1
 #define kAlertViewForgotPill 2
 

@@ -18,9 +18,6 @@
 #import "CustomStyleConstants.h"
 #import "CustomColor.h"
 
-#import "MBFieldTypes.h"
-#import "MBPanel.h"
-
 @implementation CustomStyleHandler
 
 - (void) applyStyle:(UIView *)contentView page:(MBPage *)page viewState:(MBViewState)viewState {

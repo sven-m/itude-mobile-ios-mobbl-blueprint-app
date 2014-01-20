@@ -11,6 +11,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <mobbl-core-framework/mobbl_core_framework.h>
 #endif
 
 #ifdef DEBUGMOBBL

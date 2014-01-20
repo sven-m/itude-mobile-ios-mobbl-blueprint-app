@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 
-#import "MBApplicationController.h"
 #import "CustomSplashScreen.h"
 
 @interface CustomAppDelegate : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate> {

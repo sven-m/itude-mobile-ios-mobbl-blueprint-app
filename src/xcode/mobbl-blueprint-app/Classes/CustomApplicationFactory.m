@@ -16,9 +16,6 @@
 
 #import "CustomApplicationFactory.h"
 
-// Framework imports
-#import "MBPage.h"
-
 // Controllers
 //#import "ExampleViewController.h"
 
