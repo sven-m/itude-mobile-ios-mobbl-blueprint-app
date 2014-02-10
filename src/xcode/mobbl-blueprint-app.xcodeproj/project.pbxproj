@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00CD665D18A7CB8600882E34 /* dialogs_mobbl.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00CD665C18A7CB8600882E34 /* dialogs_mobbl.xml */; };
 		03F090DF13C7550500A58AE7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */; };
 		03F090E013C7550500A58AE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B513C6FFFB00E9BD32 /* UIKit.framework */; };
 		03F090E113C7550500A58AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B713C6FFFB00E9BD32 /* Foundation.framework */; };
@@ -25,17 +26,17 @@
 		C74DAAB0183269D400580179 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA6F183269D300580179 /* CustomColor.m */; };
 		C74DAAB1183269D400580179 /* CustomStyleConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA71183269D300580179 /* CustomStyleConstants.m */; };
 		C74DAAB2183269D400580179 /* CustomStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA73183269D300580179 /* CustomStyleHandler.m */; };
-		C74DAAB3183269D400580179 /* actions.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA76183269D300580179 /* actions.xmlx */; };
-		C74DAAB4183269D400580179 /* config.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA77183269D300580179 /* config.xmlx */; };
-		C74DAAB5183269D400580179 /* dialogs.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA78183269D300580179 /* dialogs.xmlx */; };
-		C74DAAB6183269D400580179 /* documents.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA79183269D300580179 /* documents.xmlx */; };
-		C74DAAB7183269D400580179 /* domains.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7A183269D300580179 /* domains.xmlx */; };
-		C74DAAB8183269D400580179 /* outcomes.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7B183269D400580179 /* outcomes.xmlx */; };
-		C74DAAB9183269D400580179 /* pages.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7C183269D400580179 /* pages.xmlx */; };
-		C74DAABA183269D400580179 /* applicationproperties.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7E183269D400580179 /* applicationproperties.xmlx */; };
-		C74DAABB183269D400580179 /* endpoints.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7F183269D400580179 /* endpoints.xmlx */; };
-		C74DAABC183269D400580179 /* InitialOutcomes.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA80183269D400580179 /* InitialOutcomes.xmlx */; };
-		C74DAABD183269D400580179 /* resources.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA81183269D400580179 /* resources.xmlx */; };
+		C74DAAB3183269D400580179 /* actions.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA76183269D300580179 /* actions.xml */; };
+		C74DAAB4183269D400580179 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA77183269D300580179 /* config.xml */; };
+		C74DAAB5183269D400580179 /* dialogs.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA78183269D300580179 /* dialogs.xml */; };
+		C74DAAB6183269D400580179 /* documents.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA79183269D300580179 /* documents.xml */; };
+		C74DAAB7183269D400580179 /* domains.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7A183269D300580179 /* domains.xml */; };
+		C74DAAB8183269D400580179 /* outcomes.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7B183269D400580179 /* outcomes.xml */; };
+		C74DAAB9183269D400580179 /* pages.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7C183269D400580179 /* pages.xml */; };
+		C74DAABA183269D400580179 /* applicationproperties.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7E183269D400580179 /* applicationproperties.xml */; };
+		C74DAABB183269D400580179 /* endpoints.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA7F183269D400580179 /* endpoints.xml */; };
+		C74DAABC183269D400580179 /* InitialOutcomes.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA80183269D400580179 /* InitialOutcomes.xml */; };
+		C74DAABD183269D400580179 /* resources.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA81183269D400580179 /* resources.xml */; };
 		C74DAABE183269D400580179 /* ApplicationIcon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA84183269D400580179 /* ApplicationIcon-72.png */; };
 		C74DAABF183269D400580179 /* ApplicationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA85183269D400580179 /* ApplicationIcon.png */; };
 		C74DAAC0183269D400580179 /* ApplicationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA86183269D400580179 /* ApplicationIcon@2x.png */; };
@@ -58,7 +59,7 @@
 		C74DAAD1183269D400580179 /* Tab_Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA9A183269D400580179 /* Tab_Home@2x.png */; };
 		C74DAAD2183269D400580179 /* Tab_Info.png in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA9B183269D400580179 /* Tab_Info.png */; };
 		C74DAAD3183269D400580179 /* Tab_Info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA9C183269D400580179 /* Tab_Info@2x.png */; };
-		C74DAAD4183269D400580179 /* texts-nl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA9E183269D400580179 /* texts-nl.xmlx */; };
+		C74DAAD4183269D400580179 /* texts-nl.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA9E183269D400580179 /* texts-nl.xml */; };
 		C74DAAD5183269D400580179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA0183269D400580179 /* InfoPlist.strings */; };
 		C74DAAD6183269D400580179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAAA2183269D400580179 /* main.m */; };
 		C74DAAD7183269D400580179 /* mobbl-blueprint-app-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */; };
@@ -73,7 +74,6 @@
 		C7D44537188D1F4B00052D2C /* backButtonIconArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44527188D1F4B00052D2C /* backButtonIconArrowWhite.png */; };
 		C7D44538188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44528188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png */; };
 		C7D44539188D1F4B00052D2C /* database.db in Resources */ = {isa = PBXBuildFile; fileRef = C7D44529188D1F4B00052D2C /* database.db */; };
-		C7D4453A188D1F4B00052D2C /* dialogs_mobbl.xmlx in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452A188D1F4B00052D2C /* dialogs_mobbl.xmlx */; };
 		C7D4453B188D1F4B00052D2C /* icon_font_down.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452B188D1F4B00052D2C /* icon_font_down.png */; };
 		C7D4453C188D1F4B00052D2C /* icon_font_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452C188D1F4B00052D2C /* icon_font_down@2x.png */; };
 		C7D4453D188D1F4B00052D2C /* icon_font_up.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4452D188D1F4B00052D2C /* icon_font_up.png */; };
@@ -85,6 +85,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00CD665C18A7CB8600882E34 /* dialogs_mobbl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = dialogs_mobbl.xml; path = "../../../itude-mobile-ios-mobbl-framework/src/xcode/mobbl-core-framework/Resources/Config/dialogs_mobbl.xml"; sourceTree = "<group>"; };
 		03F0877813C7492B00A58AE7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		03F090F213C7550500A58AE7 /* mobbl-blueprint-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobbl-blueprint-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F239B513C6FFFB00E9BD32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -116,17 +117,17 @@
 		C74DAA71183269D300580179 /* CustomStyleConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStyleConstants.m; sourceTree = "<group>"; };
 		C74DAA72183269D300580179 /* CustomStyleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleHandler.h; sourceTree = "<group>"; };
 		C74DAA73183269D300580179 /* CustomStyleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStyleHandler.m; sourceTree = "<group>"; };
-		C74DAA76183269D300580179 /* actions.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = actions.xmlx; sourceTree = "<group>"; };
-		C74DAA77183269D300580179 /* config.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.xmlx; sourceTree = "<group>"; };
-		C74DAA78183269D300580179 /* dialogs.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dialogs.xmlx; sourceTree = "<group>"; };
-		C74DAA79183269D300580179 /* documents.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = documents.xmlx; sourceTree = "<group>"; };
-		C74DAA7A183269D300580179 /* domains.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = domains.xmlx; sourceTree = "<group>"; };
-		C74DAA7B183269D400580179 /* outcomes.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = outcomes.xmlx; sourceTree = "<group>"; };
-		C74DAA7C183269D400580179 /* pages.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pages.xmlx; sourceTree = "<group>"; };
-		C74DAA7E183269D400580179 /* applicationproperties.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = applicationproperties.xmlx; sourceTree = "<group>"; };
-		C74DAA7F183269D400580179 /* endpoints.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = endpoints.xmlx; sourceTree = "<group>"; };
-		C74DAA80183269D400580179 /* InitialOutcomes.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InitialOutcomes.xmlx; sourceTree = "<group>"; };
-		C74DAA81183269D400580179 /* resources.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resources.xmlx; sourceTree = "<group>"; };
+		C74DAA76183269D300580179 /* actions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = actions.xml; sourceTree = "<group>"; };
+		C74DAA77183269D300580179 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		C74DAA78183269D300580179 /* dialogs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dialogs.xml; sourceTree = "<group>"; };
+		C74DAA79183269D300580179 /* documents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = documents.xml; sourceTree = "<group>"; };
+		C74DAA7A183269D300580179 /* domains.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = domains.xml; sourceTree = "<group>"; };
+		C74DAA7B183269D400580179 /* outcomes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = outcomes.xml; sourceTree = "<group>"; };
+		C74DAA7C183269D400580179 /* pages.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pages.xml; sourceTree = "<group>"; };
+		C74DAA7E183269D400580179 /* applicationproperties.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = applicationproperties.xml; sourceTree = "<group>"; };
+		C74DAA7F183269D400580179 /* endpoints.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = endpoints.xml; sourceTree = "<group>"; };
+		C74DAA80183269D400580179 /* InitialOutcomes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = InitialOutcomes.xml; sourceTree = "<group>"; };
+		C74DAA81183269D400580179 /* resources.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = resources.xml; sourceTree = "<group>"; };
 		C74DAA84183269D400580179 /* ApplicationIcon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplicationIcon-72.png"; sourceTree = "<group>"; };
 		C74DAA85183269D400580179 /* ApplicationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ApplicationIcon.png; sourceTree = "<group>"; };
 		C74DAA86183269D400580179 /* ApplicationIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplicationIcon@2x.png"; sourceTree = "<group>"; };
@@ -149,7 +150,7 @@
 		C74DAA9A183269D400580179 /* Tab_Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Home@2x.png"; sourceTree = "<group>"; };
 		C74DAA9B183269D400580179 /* Tab_Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Info.png; sourceTree = "<group>"; };
 		C74DAA9C183269D400580179 /* Tab_Info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Info@2x.png"; sourceTree = "<group>"; };
-		C74DAA9E183269D400580179 /* texts-nl.xmlx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "texts-nl.xmlx"; sourceTree = "<group>"; };
+		C74DAA9E183269D400580179 /* texts-nl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "texts-nl.xml"; sourceTree = "<group>"; };
 		C74DAAA1183269D400580179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C74DAAA2183269D400580179 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mobbl-blueprint-app-Info.plist"; sourceTree = "<group>"; };
@@ -166,7 +167,6 @@
 		C7D44527188D1F4B00052D2C /* backButtonIconArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButtonIconArrowWhite.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonIconArrowWhite.png"; sourceTree = "<group>"; };
 		C7D44528188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backButtonIconArrowWhite@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonIconArrowWhite@2x.png"; sourceTree = "<group>"; };
 		C7D44529188D1F4B00052D2C /* database.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = database.db; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/database.db"; sourceTree = "<group>"; };
-		C7D4452A188D1F4B00052D2C /* dialogs_mobbl.xmlx */ = {isa = PBXFileReference; lastKnownFileType = text; name = dialogs_mobbl.xmlx; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/dialogs_mobbl.xmlx"; sourceTree = "<group>"; };
 		C7D4452B188D1F4B00052D2C /* icon_font_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_font_down.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_down.png"; sourceTree = "<group>"; };
 		C7D4452C188D1F4B00052D2C /* icon_font_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_font_down@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_down@2x.png"; sourceTree = "<group>"; };
 		C7D4452D188D1F4B00052D2C /* icon_font_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_font_up.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/icon_font_up.png"; sourceTree = "<group>"; };
@@ -349,13 +349,13 @@
 		C74DAA75183269D300580179 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				C74DAA76183269D300580179 /* actions.xmlx */,
-				C74DAA77183269D300580179 /* config.xmlx */,
-				C74DAA78183269D300580179 /* dialogs.xmlx */,
-				C74DAA79183269D300580179 /* documents.xmlx */,
-				C74DAA7A183269D300580179 /* domains.xmlx */,
-				C74DAA7B183269D400580179 /* outcomes.xmlx */,
-				C74DAA7C183269D400580179 /* pages.xmlx */,
+				C74DAA76183269D300580179 /* actions.xml */,
+				C74DAA77183269D300580179 /* config.xml */,
+				C74DAA78183269D300580179 /* dialogs.xml */,
+				C74DAA79183269D300580179 /* documents.xml */,
+				C74DAA7A183269D300580179 /* domains.xml */,
+				C74DAA7B183269D400580179 /* outcomes.xml */,
+				C74DAA7C183269D400580179 /* pages.xml */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -363,10 +363,10 @@
 		C74DAA7D183269D400580179 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
-				C74DAA7E183269D400580179 /* applicationproperties.xmlx */,
-				C74DAA7F183269D400580179 /* endpoints.xmlx */,
-				C74DAA80183269D400580179 /* InitialOutcomes.xmlx */,
-				C74DAA81183269D400580179 /* resources.xmlx */,
+				C74DAA7E183269D400580179 /* applicationproperties.xml */,
+				C74DAA7F183269D400580179 /* endpoints.xml */,
+				C74DAA80183269D400580179 /* InitialOutcomes.xml */,
+				C74DAA81183269D400580179 /* resources.xml */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -435,7 +435,7 @@
 		C74DAA9D183269D400580179 /* Texts */ = {
 			isa = PBXGroup;
 			children = (
-				C74DAA9E183269D400580179 /* texts-nl.xmlx */,
+				C74DAA9E183269D400580179 /* texts-nl.xml */,
 			);
 			path = Texts;
 			sourceTree = "<group>";
@@ -463,6 +463,7 @@
 		C7D44562188D223200052D2C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				00CD665C18A7CB8600882E34 /* dialogs_mobbl.xml */,
 				C7D44521188D1F4B00052D2C /* backButtonArrowInverted.png */,
 				C7D44522188D1F4B00052D2C /* backButtonArrowInverted@2x.png */,
 				C7D44523188D1F4B00052D2C /* backButtonCheveron.png */,
@@ -472,7 +473,6 @@
 				C7D44527188D1F4B00052D2C /* backButtonIconArrowWhite.png */,
 				C7D44528188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png */,
 				C7D44529188D1F4B00052D2C /* database.db */,
-				C7D4452A188D1F4B00052D2C /* dialogs_mobbl.xmlx */,
 				C7D4452B188D1F4B00052D2C /* icon_font_down.png */,
 				C7D4452C188D1F4B00052D2C /* icon_font_down@2x.png */,
 				C7D4452D188D1F4B00052D2C /* icon_font_up.png */,
@@ -569,7 +569,6 @@
 				C7D44537188D1F4B00052D2C /* backButtonIconArrowWhite.png in Resources */,
 				C7D44538188D1F4B00052D2C /* backButtonIconArrowWhite@2x.png in Resources */,
 				C7D44539188D1F4B00052D2C /* database.db in Resources */,
-				C7D4453A188D1F4B00052D2C /* dialogs_mobbl.xmlx in Resources */,
 				C7D4453B188D1F4B00052D2C /* icon_font_down.png in Resources */,
 				C7D4453C188D1F4B00052D2C /* icon_font_down@2x.png in Resources */,
 				C7D4453D188D1F4B00052D2C /* icon_font_up.png in Resources */,
@@ -578,8 +577,8 @@
 				C7D44540188D1F4B00052D2C /* MBPicker.nib in Resources */,
 				C74DAAC6183269D400580179 /* Icon_Tab_calendar.png in Resources */,
 				C74DAAD2183269D400580179 /* Tab_Info.png in Resources */,
-				C74DAABC183269D400580179 /* InitialOutcomes.xmlx in Resources */,
-				C74DAAB5183269D400580179 /* dialogs.xmlx in Resources */,
+				C74DAABC183269D400580179 /* InitialOutcomes.xml in Resources */,
+				C74DAAB5183269D400580179 /* dialogs.xml in Resources */,
 				C74DAACD183269D400580179 /* Icon_Tab_Info@2x.png in Resources */,
 				C74DAACA183269D400580179 /* Icon_Tab_home.png in Resources */,
 				C74DAAC4183269D400580179 /* LaunchImage.png in Resources */,
@@ -592,26 +591,27 @@
 				C7F62EE9185A206B00E9B6E9 /* MBPicker.xib in Resources */,
 				C74DAAD3183269D400580179 /* Tab_Info@2x.png in Resources */,
 				C74DAAD1183269D400580179 /* Tab_Home@2x.png in Resources */,
-				C74DAAB7183269D400580179 /* domains.xmlx in Resources */,
+				C74DAAB7183269D400580179 /* domains.xml in Resources */,
 				C74DAAC5183269D400580179 /* LaunchImage@2x.png in Resources */,
 				C74DAAC0183269D400580179 /* ApplicationIcon@2x.png in Resources */,
-				C74DAAD4183269D400580179 /* texts-nl.xmlx in Resources */,
-				C74DAABD183269D400580179 /* resources.xmlx in Resources */,
+				C74DAAD4183269D400580179 /* texts-nl.xml in Resources */,
+				C74DAABD183269D400580179 /* resources.xml in Resources */,
 				C74DAAC7183269D400580179 /* Icon_Tab_calendar@2x.png in Resources */,
 				C74DAAC9183269D400580179 /* Icon_Tab_cart@2x.png in Resources */,
-				C74DAABB183269D400580179 /* endpoints.xmlx in Resources */,
-				C74DAABA183269D400580179 /* applicationproperties.xmlx in Resources */,
+				C74DAABB183269D400580179 /* endpoints.xml in Resources */,
+				C74DAABA183269D400580179 /* applicationproperties.xml in Resources */,
 				C7F62EE8185A206B00E9B6E9 /* MBDatePicker.xib in Resources */,
-				C74DAAB4183269D400580179 /* config.xmlx in Resources */,
+				C74DAAB4183269D400580179 /* config.xml in Resources */,
+				00CD665D18A7CB8600882E34 /* dialogs_mobbl.xml in Resources */,
 				C74DAAD0183269D400580179 /* Tab_Home.png in Resources */,
-				C74DAAB8183269D400580179 /* outcomes.xmlx in Resources */,
+				C74DAAB8183269D400580179 /* outcomes.xml in Resources */,
 				C74DAAC2183269D400580179 /* Background-default.png in Resources */,
 				C74DAABE183269D400580179 /* ApplicationIcon-72.png in Resources */,
-				C74DAAB9183269D400580179 /* pages.xmlx in Resources */,
+				C74DAAB9183269D400580179 /* pages.xml in Resources */,
 				C74DAAD5183269D400580179 /* InfoPlist.strings in Resources */,
-				C74DAAB3183269D400580179 /* actions.xmlx in Resources */,
+				C74DAAB3183269D400580179 /* actions.xml in Resources */,
 				C74DAACC183269D400580179 /* Icon_Tab_Info.png in Resources */,
-				C74DAAB6183269D400580179 /* documents.xmlx in Resources */,
+				C74DAAB6183269D400580179 /* documents.xml in Resources */,
 				C74DAACF183269D400580179 /* Icon_Tab_Settings@2x.png in Resources */,
 				C74DAACE183269D400580179 /* Icon_Tab_Settings.png in Resources */,
 			);

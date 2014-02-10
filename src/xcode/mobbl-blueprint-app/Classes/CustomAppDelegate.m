@@ -74,7 +74,7 @@
 -(void)initializeApplicationProperties {
     MBDocument *_applicationStateDoc = [[MBDataManagerService sharedInstance] loadDocument: @"ApplicationState"];
     if ([[_applicationStateDoc valueForPath:@"/Device[0]/@deviceID"] length] < 1) {
-        NSString *identifier = [[UIDevice currentDevice] uniqueIdentifier];
+        NSString *identifier = [[[UIDevice currentDevice] identifierForVendor] description];
 
         //remove all notifications
         [[UIApplication sharedApplication] cancelAllLocalNotifications];
