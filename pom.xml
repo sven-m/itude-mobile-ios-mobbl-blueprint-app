@@ -10,11 +10,37 @@
 	<description>iOS  Mobbl Blueprint app</description>
 	<url>http://www.itude.com</url>
 	<inceptionYear>2013</inceptionYear>
+	<organization>
+		<name>Itude Mobile B.V</name>
+		<url>http://www.itude.com/</url>
+	</organization>
+	<licenses>
+		<license>
+        	<name>The Apache Software License, Version 2.0</name>
+            <url>LICENSE</url>
+        </license>
+    </licenses>
+    
 	<developers>
 		<developer>
-			<name>Coen Houtman</name>
-			<id>c.houtman</id>
+			<name>Ricardo de Wilde</name>
+			<id>r.dewilde</id>
 			<roles>
+				<role>Contributor</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Frank Frank van Eenbergen</name>
+			<id>f.vaneenbergen</id>
+			<roles>
+				<role>Contributor</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Pjotter Tommassen</name>
+			<id>p.tommassen</id>
+			<roles>
+				<role>Developer</role>
 				<role>Contributor</role>
 			</roles>
 		</developer>
@@ -67,7 +93,7 @@
 	  </build>
 	  
 	  <properties>
-        <core.framework.version>0.0.2.5-SNAPSHOT</core.framework.version>
+        <core.framework.version>0.0.2.6</core.framework.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>  
 	  
