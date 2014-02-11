@@ -14,18 +14,15 @@
  * limitations under the License.
  */
 
-#import "CustomAppDelegate.h"
+#import "CustomApplicationController.h"
 
 // Custom imports
 #import "CustomApplicationFactory.h"
 #import "CustomStyleHandler.h"
 #import "CustomStyleConstants.h"
-#import "CustomSoapServiceDataHandler.h"
+// #import "CustomDataHandler.h"
 
-#define kAlertViewTakePill 1
-#define kAlertViewForgotPill 2
-
-@implementation CustomAppDelegate
+@implementation CustomApplicationController
 
 
 @synthesize window = _window;
@@ -38,23 +35,19 @@
 	// Uncomment this in development/test mode to get the stacktrace on-screen
 	//InstallUncaughtExceptionHandler();
     
-    // Set custom stylehandling
+    // Uncomment to set custom stylehandling
     [[MBViewBuilderFactory sharedInstance] setStyleHandler:[[CustomStyleHandler new] autorelease]];
 	
-	// set the Custom datahandlers
-    [[MBDataManagerService sharedInstance] registerDataHandler:[[CustomSoapServiceDataHandler new] autorelease] withName:@"CustomSoapServiceDataHandler"];
-
+	// Uncomment to register a custom datahandler
+    // [[MBDataManagerService sharedInstance] registerDataHandler:[[CustomDataHandler new] autorelease] withName:@"CustomDataHandler"];
     
-	// Delete any cached documents at startup
-	[MBCacheManager expireAllDocuments];
+	// Uncomment to delete any cached documents at startup
+	// [MBCacheManager expireAllDocuments];
 	
-    CustomApplicationFactory *pilserviceFactory = [[CustomApplicationFactory alloc] init];
-    
-    [MBApplicationFactory setSharedInstance:pilserviceFactory];
-    
-    [self initializeApplicationProperties];
-    
-	[self performSelectorOnMainThread:@selector(startApplication:) withObject:pilserviceFactory waitUntilDone:YES];
+    // registers a factory that creates custom ViewControllers and Custom Actions
+    CustomApplicationFactory *myApplicationFactory = [[CustomApplicationFactory alloc] init];
+    [MBApplicationFactory setSharedInstance:myApplicationFactory];
+	[self performSelectorOnMainThread:@selector(startApplication:) withObject:myApplicationFactory waitUntilDone:YES];
     
 	[pool drain];
     
@@ -67,31 +60,8 @@
     // We want to remove the splash-screen image, because it takes up memory and we don't need it anymore
 	[self.splashScreen hide];
 
-    // For now...
-    //[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 }
 
--(void)initializeApplicationProperties {
-    MBDocument *_applicationStateDoc = [[MBDataManagerService sharedInstance] loadDocument: @"ApplicationState"];
-    if ([[_applicationStateDoc valueForPath:@"/Device[0]/@deviceID"] length] < 1) {
-        NSString *identifier = [[[UIDevice currentDevice] identifierForVendor] description];
-
-        //remove all notifications
-        [[UIApplication sharedApplication] cancelAllLocalNotifications];
-        
-#if TARGET_IPHONE_SIMULATOR
-        identifier = @"iPhone_simulator"; 
-        //identifier = @"legegebruiker2"; 
-#endif
-      
-        [_applicationStateDoc setValue:identifier forPath:@"/Device[0]/@deviceID"];
-
-    }
-    if ([[_applicationStateDoc valueForPath:@"/Device[0]/@deviceType"] length] < 1) {
-        [_applicationStateDoc setValue:@"1" forPath:@"/Device[0]/@deviceType"];
-    }
-    [[MBDataManagerService sharedInstance] storeDocument:_applicationStateDoc];
-}
 
 // support 3.x
 -(void) applicationDidFinishLaunching:(UIApplication *)application {
@@ -123,7 +93,7 @@
 	[self.splashScreen show];
     
     // Hide the networkActivitiyIndicator, in case it's still running
-	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 	[self.window makeKeyAndVisible];
 	
 	return YES;

@@ -1,8 +1,9 @@
 <Configuration xmlns="http://itude.com/schemas/MB/2.0">
     <View>	
         <Dialogs>
-			<Dialog name="DIALOG-tab_home" mode="STACK" icon="ICON-tab_home" title="Home" />
-			<Dialog name="DIALOG-tab_info" mode="STACK" icon="ICON-tab_info" title="Info" />
+            <!-- Add dialogs to add tabs, remove showAs="TAB" attributes to remove tabs. -->
+			<Dialog name="DIALOG-tab_home" mode="STACK" icon="ICON-tab_home" title="Home" showAs="TAB" />
+			<Dialog name="DIALOG-tab_info" mode="STACK" icon="ICON-tab_info" title="Info" showAs="TAB" />
 		</Dialogs>
 	</View>
 </Configuration>

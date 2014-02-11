@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-//  CustomSoapServiceDataHandler.h
+//  CustomDataHandler.h
 //  Created by Robin Puthli on 20-12-2013.
 
-@interface CustomSoapServiceDataHandler : MBRESTServiceDataHandler
+@interface CustomDataHandler : MBRESTServiceDataHandler
 
 @end

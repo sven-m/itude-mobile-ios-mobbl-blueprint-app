@@ -1,0 +1,19 @@
+<Configuration xmlns="http://itude.com/schemas/MB/2.0">
+	<Controller>
+        <Wiring>
+            
+			<!-- ********************* Initial outcomes ********************* -->
+            <Outcome origin="Controller" name="init" action="FireInitialOutcomes" noBackgroundProcessing="TRUE"/>
+            
+            <!-- ********************* System outcomes for ending a (modal) screen ********************* -->
+            <Outcome origin="*" name="OUTCOME-end_modal" action="none" displayMode="ENDMODAL"/>
+            <Outcome origin="*" name="OUTCOME-pop"     action="none" displayMode="POP"/>
+            <Outcome origin="*" name="OUTCOME-pop_all" action="none" displayMode="POPALL"/>
+            
+            <!-- ********************* Exception handling ******************** -->
+            <Outcome origin="*" name="exception" action="PAGE-exception" displayMode="MODALFORMSHEETWITHCLOSEBUTTON"/>
+            <Outcome origin="*" name="NetworkException" action="NetworkException"/>
+            
+        </Wiring>
+    </Controller>
+</Configuration>

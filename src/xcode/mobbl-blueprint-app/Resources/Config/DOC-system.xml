@@ -1,0 +1,30 @@
+<Configuration xmlns="http://itude.com/schemas/MB/2.0">
+	<Model>
+        <Documents>
+            <!-- Used to display Exceptions on an Exception Page -->
+            <Document name="MBException" autoCreate="TRUE" dataManager="MBMemoryDataHandler">
+                <Element name="Exception" minOccurs="1">
+                    <Attribute name="name" type="string" />
+                    <Attribute name="description" type="string" />
+                    <Attribute name="origin" type="string" />
+                    <Attribute name="outcome" type="string" />
+                    <Attribute name="path" type="string" />
+                    <Attribute name="type" type="string" />
+                </Element>
+            </Document>
+            
+            <!-- used as a placeholder for Pages that do not have data -->
+            <Document name="MBEmptyDoc" dataManager="MBMemoryDataHandler" autoCreate="TRUE">
+
+            </Document>
+            <!-- used to specify which Outcomes are triggered during the application startup sequence -->
+            <Document name="InitialOutcomes" dataManager="MBFileDataHandler" autoCreate="TRUE">
+                <Element name="Outcome" minOccurs="1">
+                    <Attribute name="action" type="string"/>
+                    <Attribute name="dialog" type="string"/>
+                    <Attribute name="pageStack" type="string"/>
+				</Element>
+			</Document>
+        </Documents>
+    </Model>
+</Configuration>

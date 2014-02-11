@@ -4,11 +4,9 @@
             <Include name="domains"/>
         </Domains>
         <Documents>
-            <!-- ********************* Documents for Webservice Requests ******************** -->
-            <!--Include name="genericDocuments"/-->
             <!-- ********************* Documents for Application Configuration ******************** -->
-            <!--Include name="appDocuments"/-->
-            <!-- ********************* Documents for 'Mobbl Applications ******************** -->
+            <Include name="DOC-system"/>
+            <!-- ********************* Documents for your application ******************** -->
             <Include name="documents"/>
         </Documents>
     </Model>
@@ -18,13 +16,16 @@
         </Actions>
         <Wiring>
             <Include name="outcomes"/>
+            <Include name="OUTCOME-system"/>
         </Wiring>
     </Controller>
     <View>	
         <Dialogs>
             <Include name="dialogs"/>
+            <!-- dialogs_mobbl is located in the mobbl framework -->
             <Include name="dialogs_mobbl"/>
         </Dialogs>
 		<Include name="pages"/>
+		<Include name="PAGE-exception"/>
     </View>
 </Configuration>
