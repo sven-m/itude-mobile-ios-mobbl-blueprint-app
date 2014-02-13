@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CD665D18A7CB8600882E34 /* dialogs_mobbl.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00CD665C18A7CB8600882E34 /* dialogs_mobbl.xml */; };
 		00D1321F18A98C1C00860B7B /* PAGE-exception.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00D1321C18A98C1C00860B7B /* PAGE-exception.xml */; };
 		00D1322018A98C1C00860B7B /* DOC-system.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00D1321D18A98C1C00860B7B /* DOC-system.xml */; };
 		00D1322118A98C1C00860B7B /* OUTCOME-system.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00D1321E18A98C1C00860B7B /* OUTCOME-system.xml */; };
@@ -19,6 +18,7 @@
 		C71AC207183379E000A189F1 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C71AC206183379E000A189F1 /* libsqlite3.0.dylib */; };
 		C71AC209183379F300A189F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71AC208183379F300A189F1 /* AVFoundation.framework */; };
 		C71AC20B18337A1000A189F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71AC20A18337A1000A189F1 /* QuartzCore.framework */; };
+		C73339A718AD169C00B85665 /* dialogs_mobbl.xml in Resources */ = {isa = PBXBuildFile; fileRef = C73339A618AD169C00B85665 /* dialogs_mobbl.xml */; };
 		C74DAAA5183269D400580179 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA4F183269D300580179 /* FireInitialOutcomes.m */; };
 		C74DAAA8183269D400580179 /* CustomApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA56183269D300580179 /* CustomApplicationController.m */; };
 		C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA58183269D300580179 /* CustomApplicationFactory.m */; };
@@ -86,7 +86,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00CD665C18A7CB8600882E34 /* dialogs_mobbl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = dialogs_mobbl.xml; path = "../../../itude-mobile-ios-mobbl-framework/src/xcode/mobbl-core-framework/Resources/Config/dialogs_mobbl.xml"; sourceTree = "<group>"; };
 		00D1321C18A98C1C00860B7B /* PAGE-exception.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PAGE-exception.xml"; sourceTree = "<group>"; };
 		00D1321D18A98C1C00860B7B /* DOC-system.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "DOC-system.xml"; sourceTree = "<group>"; };
 		00D1321E18A98C1C00860B7B /* OUTCOME-system.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "OUTCOME-system.xml"; sourceTree = "<group>"; };
@@ -99,6 +98,7 @@
 		C71AC206183379E000A189F1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		C71AC208183379F300A189F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C71AC20A18337A1000A189F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C73339A618AD169C00B85665 /* dialogs_mobbl.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = dialogs_mobbl.xml; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/dialogs_mobbl.xml"; sourceTree = "<group>"; };
 		C74DAA4E183269D300580179 /* FireInitialOutcomes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireInitialOutcomes.h; sourceTree = "<group>"; };
 		C74DAA4F183269D300580179 /* FireInitialOutcomes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireInitialOutcomes.m; sourceTree = "<group>"; };
 		C74DAA55183269D300580179 /* CustomApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomApplicationController.h; sourceTree = "<group>"; };
@@ -208,6 +208,7 @@
 		03F239A613C6FFFA00E9BD32 = {
 			isa = PBXGroup;
 			children = (
+				C73339A618AD169C00B85665 /* dialogs_mobbl.xml */,
 				C74DAA4B183269D300580179 /* mobbl-blueprint-app */,
 				03F239B413C6FFFB00E9BD32 /* Frameworks */,
 				03F239B213C6FFFB00E9BD32 /* Products */,
@@ -444,7 +445,6 @@
 		C7D44562188D223200052D2C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				00CD665C18A7CB8600882E34 /* dialogs_mobbl.xml */,
 				C7D44521188D1F4B00052D2C /* backButtonArrowInverted.png */,
 				C7D44522188D1F4B00052D2C /* backButtonArrowInverted@2x.png */,
 				C7D44523188D1F4B00052D2C /* backButtonCheveron.png */,
@@ -541,6 +541,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73339A718AD169C00B85665 /* dialogs_mobbl.xml in Resources */,
 				C7D44531188D1F4B00052D2C /* backButtonArrowInverted.png in Resources */,
 				C7D44532188D1F4B00052D2C /* backButtonArrowInverted@2x.png in Resources */,
 				C7D44533188D1F4B00052D2C /* backButtonCheveron.png in Resources */,
@@ -586,7 +587,6 @@
 				C7F62EE8185A206B00E9B6E9 /* MBDatePicker.xib in Resources */,
 				C74DAAB4183269D400580179 /* config.xml in Resources */,
 				00D1322318A9964200860B7B /* LaunchImage-568h@2x.png in Resources */,
-				00CD665D18A7CB8600882E34 /* dialogs_mobbl.xml in Resources */,
 				00D1322118A98C1C00860B7B /* OUTCOME-system.xml in Resources */,
 				C74DAAD0183269D400580179 /* Tab_Home.png in Resources */,
 				C74DAAB8183269D400580179 /* outcomes.xml in Resources */,
