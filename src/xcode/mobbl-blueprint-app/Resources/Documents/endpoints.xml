@@ -1,11 +1,10 @@
 <EndPoints xmlns="https://itude.com/schemas/MB/1.0">
 
     <ResultListeners>
-        <!--ResultListener name="TimedOutResultListener" matchExpression="faultcode*F0080002"/-->
+        <!--ResultListener name="MyResultListener" matchExpression="faultcode*0123456789"/-->
     </ResultListeners>
 
     
-    <EndPoint documentOut="GetExampleResponse1"    timeout="30" endPoint="https://poseidon.itude.com/WebService" cacheable="true"/>
-    <EndPoint documentOut="GetExampleResponse2"    timeout="30" endPoint="https://poseidon.itude.com/WebService" cacheable="true"/>
+    <!--EndPoint documentOut="MyDocument" timeout="30" endPoint="https://myserver.com/WebService" cacheable="true" ttl="60" -->
 
 </EndPoints>

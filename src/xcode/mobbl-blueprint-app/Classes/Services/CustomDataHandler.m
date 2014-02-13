@@ -14,19 +14,22 @@
  * limitations under the License.
  */
 
-//  CustomSoapServiceDataHandler.m
+//  CustomDataHandler.m
 //  Created by Robin Puthli on 20-12-2013.
 
-#import "CustomSoapServiceDataHandler.h"
+#import "CustomDataHandler.h"
 
-@implementation CustomSoapServiceDataHandler
+@implementation CustomDataHandler
+- (void)setHTTPRequestBody:(NSMutableURLRequest *)request withArguments:(MBDocument *)args{
+    // implement custom serialization of the args Document here and put the serialized form in the request body
+}
 
 -(void)setHTTPHeaders:(NSMutableURLRequest *)request withArguments:(MBDocument *)args{
+    // example code
     // force HTTP Get irrespective of args
     [request setHTTPMethod:@"GET"];
     [request setValue:@"text/xml,application/xml" forHTTPHeaderField:@"Accept"];
     [request setValue:@"text/xml" forHTTPHeaderField:@"Content-Type"];
-    //
     [request setValue:@"gzip,deflate" forHTTPHeaderField:@"Accept-Encoding"];
 }
 

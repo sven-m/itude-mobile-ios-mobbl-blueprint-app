@@ -14,13 +14,15 @@
  * limitations under the License.
  */
 
-@interface GenericAction : NSObject {
-    
+#import "CustomSplashScreen.h"
+
+@interface CustomApplicationController : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate> {
+	UIWindow *_window;
+    CustomSplashScreen *_splashScreen;
 }
 
--(MBDocument *) buildPPSoapRequestDocument:(MBDocument *)doc withActionName:(NSString *)name;
--(void) setRequestParameter:(NSString *)value forKey:(NSString *)key forDocument:(MBDocument *)doc;
-
+@property (nonatomic, retain) UIWindow *window;
+@property (nonatomic, retain) CustomSplashScreen *splashScreen;
 
 
 @end

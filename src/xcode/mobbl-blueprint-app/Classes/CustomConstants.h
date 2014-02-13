@@ -24,7 +24,4 @@
 // Domain validators
 #define C_CUSTOM_DOMAINVALIDATOR_GENDER @"list_gender"
 
-// Local documents
-#define C_CUSTOM_DOCNAME_APPLICATIONSTATE @"ApplicationState"
-
 @end
