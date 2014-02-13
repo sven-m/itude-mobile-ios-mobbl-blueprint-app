@@ -14,19 +14,18 @@
  * limitations under the License.
  */
 
-#import "CustomSplashScreen.h"
+#import "CustomViewController.h"
 
-@interface CustomAppDelegate : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate> {
-    
-	UIWindow *_window;
-    CustomSplashScreen *_splashScreen;
-    BOOL _handlingNotification;
-    
+@implementation CustomViewController
+
+
+-(NSString*) title {
+	return self.page.title;
 }
 
-@property (nonatomic, retain) UIWindow *window;
-@property (nonatomic, retain) CustomSplashScreen *splashScreen;
+-(void)viewDidLoad{
+    [self rebuildView];
+}
 
--(void)initializeApplicationProperties;
 
 @end

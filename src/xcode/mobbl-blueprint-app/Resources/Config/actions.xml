@@ -2,7 +2,6 @@
 	<Controller>
         <Actions>
 			<Action name="FireInitialOutcomes" className="FireInitialOutcomes"/>
-            <Action name="CustomTemporaryAction" className="PPTemporaryAction"/>
 		</Actions>
 	</Controller>
 </Configuration>

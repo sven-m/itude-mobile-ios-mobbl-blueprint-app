@@ -17,12 +17,10 @@
 #import "CustomApplicationFactory.h"
 
 // Controllers
-//#import "ExampleViewController.h"
-
+#import "CustomViewController.h"
 
 // Actions
 #import "FireInitialOutcomes.h"
-#import "CustomTemporaryAction.h"
 
 
 @implementation CustomApplicationFactory
@@ -36,9 +34,11 @@
 		return [[FireInitialOutcomes new] autorelease];
 	}
     
-    else if ([actionClassName isEqualToString:@"CustomTemporaryAction"]) {
-        return [[CustomTemporaryAction new] autorelease];
+/*
+    else if ([actionClassName isEqualToString:@"MyCustomAction"]) {
+        return [[MyCustomAction new] autorelease];
     }
+*/
     
 	return nil;
 }
@@ -49,14 +49,13 @@
 			 viewState:(MBViewState) viewState 
 		 withMaxBounds:(CGRect) bounds {
     
-
     // Home page (example)
     if([@"PAGE-home" isEqualToString:definition.name]) {
-//		ExampleViewController *myViewController = [[[ExampleViewController alloc] init] autorelease];
-//		MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
-//		return page;
-	}
-     
+        CustomViewController *myViewController = [[[CustomViewController alloc] init] autorelease];
+        MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
+		return page;
+ 	}
+    
     
     return [super createPage:definition document:document rootPath:rootPath viewState: viewState withMaxBounds: bounds];
 }
