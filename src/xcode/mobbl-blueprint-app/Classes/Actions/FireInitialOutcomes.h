@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-@interface FireInitialOutcomes : MBFireInitialOutcomes {
-    
-}
+@interface FireInitialOutcomes : MBFireInitialOutcomes
 
 @end

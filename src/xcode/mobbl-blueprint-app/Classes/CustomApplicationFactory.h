@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-@interface CustomApplicationFactory : MBApplicationFactory {
-
-}
+@interface CustomApplicationFactory : MBApplicationFactory
 
 @end

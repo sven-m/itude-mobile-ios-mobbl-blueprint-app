@@ -16,61 +16,43 @@
 
 #import "CustomSplashScreen.h"
 
-
-#define SPLASHSCREENACTIVITYINDICATORSIZE 35
+@interface CustomSplashScreen()
+@property (nonatomic, retain) UIActivityIndicatorView *activityIndicator;
+@end
 
 @implementation CustomSplashScreen
 
-@synthesize splashScreenImageView = _splashScreenImageView;
-@synthesize activityIndicator = _activityIndicator;
+- (id)initWithImage:(UIImage *)image
+{
+    self.activityIndicatorSize = 35.0;
+    self = [super initWithImage:image];
+    if (self) {
+        [self addSubview:self.activityIndicator];
+        self.frame = [UIScreen mainScreen].bounds;
+    }
+    return self;
+}
+
+- (UIActivityIndicatorView *)activityIndicator
+{
+    if (!_activityIndicator) {
+        CGRect frame = CGRectMake(
+            self.center.x - self.activityIndicatorSize / 2.0,
+            self.center.y - self.activityIndicatorSize / 2.0,
+            self.activityIndicatorSize,
+            self.activityIndicatorSize
+        );
+		_activityIndicator = [[UIActivityIndicatorView alloc] initWithFrame:frame];
+		[_activityIndicator setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhiteLarge];
+		[_activityIndicator startAnimating];
+	}
+    return _activityIndicator;
+}
 
 - (void) dealloc
 {
-	[_splashScreenImageView release];
-	[_activityIndicator release];
+    self.activityIndicator = nil;
 	[super dealloc];
-}
-
-// Show a splashscreen that can be shown to the user so it does not look like the app is dead if the network takes a long time to load everyting.
-- (void) show {
-	NSString *splashScreenImageName = @"LaunchImage.png";
-	CGRect splashScreenImageViewFrame = self.frame;
-
-    
-	if (self.splashScreenImageView == nil) {
-        self.splashScreenImageView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:splashScreenImageName]] autorelease];
-    }
-    
-	self.splashScreenImageView.frame = splashScreenImageViewFrame;
-	[self addSubview:self.splashScreenImageView];
-	
-    
-	// Create the Activity/spinning wheel
-    CGRect frame = CGRectMake((self.frame.size.width - SPLASHSCREENACTIVITYINDICATORSIZE) / 2, 
-                              (((self.frame.size.height - SPLASHSCREENACTIVITYINDICATORSIZE)/3)*2), 
-                              SPLASHSCREENACTIVITYINDICATORSIZE, 
-                              SPLASHSCREENACTIVITYINDICATORSIZE);
-    if (self.activityIndicator == nil) {
-		self.activityIndicator = [[[UIActivityIndicatorView alloc] initWithFrame:frame] autorelease];
-		[self.activityIndicator setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhiteLarge];
-		[self.activityIndicator startAnimating];
-	}
-    
-	[self addSubview:self.activityIndicator];
-     
-}
-
-- (void) hide {
-	if (self.splashScreenImageView != nil){
-        //[self.splashScreenImageView removeFromSuperview];
-    }
-	if (self.activityIndicator != nil) {
-        [self.activityIndicator removeFromSuperview];
-    }
-	//self.splashScreenImageView = nil;
-	self.activityIndicator = nil;
-    
-    //[self removeFromSuperview];
 }
 
 @end

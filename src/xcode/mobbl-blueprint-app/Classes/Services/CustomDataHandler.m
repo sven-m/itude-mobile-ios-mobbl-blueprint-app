@@ -20,11 +20,9 @@
 #import "CustomDataHandler.h"
 
 @implementation CustomDataHandler
-- (void)setHTTPRequestBody:(NSMutableURLRequest *)request withArguments:(MBDocument *)args{
-    // implement custom serialization of the args Document here and put the serialized form in the request body
-}
 
--(void)setHTTPHeaders:(NSMutableURLRequest *)request withArguments:(MBDocument *)args{
+-(void)setHTTPHeaders:(NSMutableURLRequest *)request withArguments:(MBDocument *)args
+{
     // example code
     // force HTTP Get irrespective of args
     [request setHTTPMethod:@"GET"];
@@ -33,11 +31,9 @@
     [request setValue:@"gzip,deflate" forHTTPHeaderField:@"Accept-Encoding"];
 }
 
-/** uncomment to parse a JSON response instead of the default XML
+- (void)setHTTPRequestBody:(NSMutableURLRequest *)request withArguments:(MBDocument *)args
+{
+    // implement custom serialization of the args Document here and put the serialized form in the request body
+}
 
- -(MBDocument *)documentWithData:(NSData *)data andDocumentName:(NSString *)documentName{
- return [[MBDocumentFactory sharedInstance] documentWithData:data withType:PARSER_JSON andDefinition:[[MBMetadataService sharedInstance] definitionForDocumentName:documentName]];
- 
- }
- */
 @end
