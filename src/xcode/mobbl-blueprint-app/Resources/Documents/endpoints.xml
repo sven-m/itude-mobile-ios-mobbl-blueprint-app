@@ -4,7 +4,6 @@
         <!--ResultListener name="MyResultListener" matchExpression="faultcode*0123456789"/-->
     </ResultListeners>
 
-    
-    <!--EndPoint documentOut="MyDocument" timeout="30" endPoint="https://myserver.com/WebService" cacheable="true" ttl="60" -->
+    <!--EndPoint documentOut="MyDocument" timeout="30" endPoint="https://myserver.com/WebService" cacheable="true" ttl="60"-->
 
 </EndPoints>

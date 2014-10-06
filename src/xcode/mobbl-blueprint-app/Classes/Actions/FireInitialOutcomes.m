@@ -18,11 +18,13 @@
 
 @implementation FireInitialOutcomes
 
-- (NSString *)documentName {
+- (NSString *)documentName
+{
     return [super documentName];
 }
 
--(MBOutcome *)execute:(MBDocument *)document withPath:(NSString *)path{
+-(MBOutcome *)execute:(MBDocument *)document withPath:(NSString *)path
+{
     return [super execute:document withPath:path];
 }
 

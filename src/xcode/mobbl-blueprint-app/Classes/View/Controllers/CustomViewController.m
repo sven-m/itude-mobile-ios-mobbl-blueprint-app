@@ -18,14 +18,14 @@
 
 @implementation CustomViewController
 
-
--(NSString*) title {
+- (NSString*) title
+{
 	return self.page.title;
 }
 
--(void)viewDidLoad{
+- (void) viewDidLoad
+{
     [self rebuildView];
 }
-
 
 @end

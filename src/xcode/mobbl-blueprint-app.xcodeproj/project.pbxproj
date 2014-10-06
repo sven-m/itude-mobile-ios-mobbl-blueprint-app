@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D1321F18A98C1C00860B7B /* PAGE-exception.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00D1321C18A98C1C00860B7B /* PAGE-exception.xml */; };
 		00D1322018A98C1C00860B7B /* DOC-system.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00D1321D18A98C1C00860B7B /* DOC-system.xml */; };
 		00D1322118A98C1C00860B7B /* OUTCOME-system.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00D1321E18A98C1C00860B7B /* OUTCOME-system.xml */; };
 		00D1322318A9964200860B7B /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D1322218A9964200860B7B /* LaunchImage-568h@2x.png */; };
@@ -15,6 +14,7 @@
 		03F090E013C7550500A58AE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B513C6FFFB00E9BD32 /* UIKit.framework */; };
 		03F090E113C7550500A58AE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B713C6FFFB00E9BD32 /* Foundation.framework */; };
 		03F090E213C7550500A58AE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F239B913C6FFFB00E9BD32 /* CoreGraphics.framework */; };
+		17EAB8C319CB3F5F00164434 /* UIImage+CustomStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAB8C219CB3F5F00164434 /* UIImage+CustomStyle.m */; };
 		C71AC207183379E000A189F1 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C71AC206183379E000A189F1 /* libsqlite3.0.dylib */; };
 		C71AC209183379F300A189F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71AC208183379F300A189F1 /* AVFoundation.framework */; };
 		C71AC20B18337A1000A189F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71AC20A18337A1000A189F1 /* QuartzCore.framework */; };
@@ -24,8 +24,6 @@
 		C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA58183269D300580179 /* CustomApplicationFactory.m */; };
 		C74DAAAE183269D400580179 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA69183269D300580179 /* CustomViewController.m */; };
 		C74DAAAF183269D400580179 /* CustomSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA6C183269D300580179 /* CustomSplashScreen.m */; };
-		C74DAAB0183269D400580179 /* CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA6F183269D300580179 /* CustomColor.m */; };
-		C74DAAB1183269D400580179 /* CustomStyleConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA71183269D300580179 /* CustomStyleConstants.m */; };
 		C74DAAB2183269D400580179 /* CustomStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA73183269D300580179 /* CustomStyleHandler.m */; };
 		C74DAAB3183269D400580179 /* actions.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA76183269D300580179 /* actions.xml */; };
 		C74DAAB4183269D400580179 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA77183269D300580179 /* config.xml */; };
@@ -86,7 +84,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00D1321C18A98C1C00860B7B /* PAGE-exception.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "PAGE-exception.xml"; sourceTree = "<group>"; };
 		00D1321D18A98C1C00860B7B /* DOC-system.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "DOC-system.xml"; sourceTree = "<group>"; };
 		00D1321E18A98C1C00860B7B /* OUTCOME-system.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "OUTCOME-system.xml"; sourceTree = "<group>"; };
 		00D1322218A9964200860B7B /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
@@ -95,6 +92,8 @@
 		03F239B513C6FFFB00E9BD32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03F239B713C6FFFB00E9BD32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03F239B913C6FFFB00E9BD32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17EAB8C119CB3F5F00164434 /* UIImage+CustomStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CustomStyle.h"; sourceTree = "<group>"; };
+		17EAB8C219CB3F5F00164434 /* UIImage+CustomStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CustomStyle.m"; sourceTree = "<group>"; };
 		C71AC206183379E000A189F1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		C71AC208183379F300A189F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C71AC20A18337A1000A189F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -105,15 +104,10 @@
 		C74DAA56183269D300580179 /* CustomApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomApplicationController.m; sourceTree = "<group>"; };
 		C74DAA57183269D300580179 /* CustomApplicationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomApplicationFactory.h; sourceTree = "<group>"; };
 		C74DAA58183269D300580179 /* CustomApplicationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomApplicationFactory.m; sourceTree = "<group>"; };
-		C74DAA59183269D300580179 /* CustomConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomConstants.h; sourceTree = "<group>"; };
 		C74DAA68183269D300580179 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		C74DAA69183269D300580179 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		C74DAA6B183269D300580179 /* CustomSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSplashScreen.h; sourceTree = "<group>"; };
 		C74DAA6C183269D300580179 /* CustomSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSplashScreen.m; sourceTree = "<group>"; };
-		C74DAA6E183269D300580179 /* CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColor.h; sourceTree = "<group>"; };
-		C74DAA6F183269D300580179 /* CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColor.m; sourceTree = "<group>"; };
-		C74DAA70183269D300580179 /* CustomStyleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleConstants.h; sourceTree = "<group>"; };
-		C74DAA71183269D300580179 /* CustomStyleConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStyleConstants.m; sourceTree = "<group>"; };
 		C74DAA72183269D300580179 /* CustomStyleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleHandler.h; sourceTree = "<group>"; };
 		C74DAA73183269D300580179 /* CustomStyleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStyleHandler.m; sourceTree = "<group>"; };
 		C74DAA76183269D300580179 /* actions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = actions.xml; sourceTree = "<group>"; };
@@ -198,7 +192,6 @@
 		00D1321B18A98BFA00860B7B /* System */ = {
 			isa = PBXGroup;
 			children = (
-				00D1321C18A98C1C00860B7B /* PAGE-exception.xml */,
 				00D1321D18A98C1C00860B7B /* DOC-system.xml */,
 				00D1321E18A98C1C00860B7B /* OUTCOME-system.xml */,
 			);
@@ -253,13 +246,12 @@
 			isa = PBXGroup;
 			children = (
 				C75A44E718729D580014F708 /* Services */,
+				C74DAA61183269D300580179 /* View */,
 				C74DAA4D183269D300580179 /* Actions */,
 				C74DAA55183269D300580179 /* CustomApplicationController.h */,
 				C74DAA56183269D300580179 /* CustomApplicationController.m */,
 				C74DAA57183269D300580179 /* CustomApplicationFactory.h */,
 				C74DAA58183269D300580179 /* CustomApplicationFactory.m */,
-				C74DAA59183269D300580179 /* CustomConstants.h */,
-				C74DAA61183269D300580179 /* View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -304,12 +296,10 @@
 		C74DAA6D183269D300580179 /* StyleHandling */ = {
 			isa = PBXGroup;
 			children = (
-				C74DAA6E183269D300580179 /* CustomColor.h */,
-				C74DAA6F183269D300580179 /* CustomColor.m */,
-				C74DAA70183269D300580179 /* CustomStyleConstants.h */,
-				C74DAA71183269D300580179 /* CustomStyleConstants.m */,
 				C74DAA72183269D300580179 /* CustomStyleHandler.h */,
 				C74DAA73183269D300580179 /* CustomStyleHandler.m */,
+				17EAB8C119CB3F5F00164434 /* UIImage+CustomStyle.h */,
+				17EAB8C219CB3F5F00164434 /* UIImage+CustomStyle.m */,
 			);
 			path = StyleHandling;
 			sourceTree = "<group>";
@@ -580,7 +570,6 @@
 				C74DAAD4183269D400580179 /* texts-nl.xml in Resources */,
 				C74DAABD183269D400580179 /* resources.xml in Resources */,
 				C74DAAC7183269D400580179 /* Icon_Tab_calendar@2x.png in Resources */,
-				00D1321F18A98C1C00860B7B /* PAGE-exception.xml in Resources */,
 				C74DAAC9183269D400580179 /* Icon_Tab_cart@2x.png in Resources */,
 				C74DAABB183269D400580179 /* endpoints.xml in Resources */,
 				C74DAABA183269D400580179 /* applicationproperties.xml in Resources */,
@@ -609,8 +598,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17EAB8C319CB3F5F00164434 /* UIImage+CustomStyle.m in Sources */,
 				C74DAAB2183269D400580179 /* CustomStyleHandler.m in Sources */,
-				C74DAAB0183269D400580179 /* CustomColor.m in Sources */,
 				C74DAAA8183269D400580179 /* CustomApplicationController.m in Sources */,
 				C74DAAA5183269D400580179 /* FireInitialOutcomes.m in Sources */,
 				C74DAAAF183269D400580179 /* CustomSplashScreen.m in Sources */,
@@ -618,7 +607,6 @@
 				C74DAAD6183269D400580179 /* main.m in Sources */,
 				C75A44EA18729D580014F708 /* CustomDataHandler.m in Sources */,
 				C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */,
-				C74DAAB1183269D400580179 /* CustomStyleConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
