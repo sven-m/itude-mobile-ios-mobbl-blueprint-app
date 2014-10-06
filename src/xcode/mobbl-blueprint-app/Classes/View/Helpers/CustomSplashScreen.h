@@ -16,16 +16,10 @@
 
 #import <Foundation/Foundation.h>
 
+@interface CustomSplashScreen : UIImageView
 
-@interface CustomSplashScreen : UIView {
-	UIImageView *_splashScreenImageView;
-	UIActivityIndicatorView *_activityIndicator; 
-}
+@property (nonatomic) float activityIndicatorSize;
 
-@property (nonatomic, retain) UIImageView *splashScreenImageView;
-@property (nonatomic, retain) UIActivityIndicatorView *activityIndicator;
-
-- (void) show;
-- (void) hide;
+- (id) initWithImage:(UIImage *)image;
 
 @end

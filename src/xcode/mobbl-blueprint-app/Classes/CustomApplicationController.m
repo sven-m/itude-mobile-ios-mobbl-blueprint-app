@@ -15,95 +15,68 @@
  */
 
 #import "CustomApplicationController.h"
-
-// Custom imports
 #import "CustomApplicationFactory.h"
 #import "CustomStyleHandler.h"
-#import "CustomStyleConstants.h"
 // #import "CustomDataHandler.h"
 
 @implementation CustomApplicationController
 
+- (CustomSplashScreen *)splashScreen
+{
+    if (!_splashScreen)
+        _splashScreen = [[CustomSplashScreen alloc] initWithImage:[UIImage imageNamed:@"LaunchImage.png"]];
+    return _splashScreen;
+}
 
-@synthesize window = _window;
-@synthesize splashScreen = _splashScreen;
-
--(void) startController {
-	
-	NSAutoreleasePool *pool = [NSAutoreleasePool new];
-	
+-(void) startController
+{
 	// Uncomment this in development/test mode to get the stacktrace on-screen
 	//InstallUncaughtExceptionHandler();
-    
-    // Uncomment to set custom stylehandling
+
     [[MBViewBuilderFactory sharedInstance] setStyleHandler:[[CustomStyleHandler new] autorelease]];
-	
-	// Uncomment to register a custom datahandler
+    
+    // Uncomment to register a custom datahandler
     // [[MBDataManagerService sharedInstance] registerDataHandler:[[CustomDataHandler new] autorelease] withName:@"CustomDataHandler"];
     
-	// Uncomment to delete any cached documents at startup
-	// [MBCacheManager expireAllDocuments];
-	
     // registers a factory that creates custom ViewControllers and Custom Actions
-    CustomApplicationFactory *myApplicationFactory = [[CustomApplicationFactory alloc] init];
-    [MBApplicationFactory setSharedInstance:myApplicationFactory];
-	[self performSelectorOnMainThread:@selector(startApplication:) withObject:myApplicationFactory waitUntilDone:YES];
+    [MBApplicationFactory setSharedInstance:[[CustomApplicationFactory new] autorelease]];
     
-	[pool drain];
-    
+    [self performSelectorOnMainThread:@selector(startApplication:) withObject:[MBApplicationFactory sharedInstance] waitUntilDone:YES];
 }
 
-- (void)startApplication:(MBApplicationFactory *)_applicationFactory {
+- (void)startApplication:(MBApplicationFactory *)_applicationFactory
+{
     // Start the application
     [super startApplication:_applicationFactory];
-    
     // We want to remove the splash-screen image, because it takes up memory and we don't need it anymore
-	[self.splashScreen hide];
-
+	[self.splashScreen removeFromSuperview];
+    self.splashScreen = nil;
 }
 
-
 // support 3.x
--(void) applicationDidFinishLaunching:(UIApplication *)application {
+-(void) applicationDidFinishLaunching:(UIApplication *)application
+{
 	[self application:application didFinishLaunchingWithOptions:nil];
 }
 
 // for 4.x
-- (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    
-    // start startup sequence in background 
-	[self performSelectorInBackground:@selector(startController) withObject:nil];
-	//[self startController];
-    
-	self.window = [[[UIWindow alloc] initWithFrame: [[UIScreen mainScreen]bounds]] autorelease];
-	
-    // Add a backgroundImage, so that when the app is waiting for something, there is a proper background to be displayed
-	NSString *backgroundImageName = [CustomStyleConstants getFilenameForItem:@"Background"];
-	UIImageView *bgImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:backgroundImageName]];
-	bgImage.opaque = YES;
-	[self.window addSubview:bgImage];
-	[self.window sendSubviewToBack:bgImage];
-    
-    [bgImage release];
-    
+- (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // start startup sequence in background
+    // todo: waarom is dit nodig?
+    [self performSelectorInBackground:@selector(startController) withObject:nil];
+	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     // Show something on screen so user doesnt think the app is dead if the network takes a long time.
-	self.splashScreen = [[[CustomSplashScreen alloc] initWithFrame:self.window.frame] autorelease];
 	[self.window addSubview:self.splashScreen];
-	[self.splashScreen show];
-    
-    // Hide the networkActivitiyIndicator, in case it's still running
-	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
-	[self.window makeKeyAndVisible];
+    [self.window makeKeyAndVisible];
 	
-	return YES;
+    return YES;
 }
-
-
 
 - (void)dealloc
 {
-    [_window release];
+    self.window = nil;
+    self.splashScreen = nil;
     [super dealloc];
 }
 

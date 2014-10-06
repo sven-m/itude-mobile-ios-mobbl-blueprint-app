@@ -2,6 +2,9 @@
 	<Controller>
         <Wiring>
             
+            <!-- ********************* Initial outcomes ********************* -->
+            <Outcome origin="Controller" name="init" action="FireInitialOutcomes" noBackgroundProcessing="TRUE"/>
+            
             <!-- Landing (Home) tab outcomes -->
             <Outcome origin="*" name="OUTCOME-tab_home" action="PAGE-home" dialog="DIALOG-tab_home"/>
          

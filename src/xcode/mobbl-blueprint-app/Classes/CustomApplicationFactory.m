@@ -15,50 +15,41 @@
  */
 
 #import "CustomApplicationFactory.h"
-
 // Controllers
 #import "CustomViewController.h"
-
 // Actions
 #import "FireInitialOutcomes.h"
 
-
 @implementation CustomApplicationFactory
 
--(id<MBResultListener>) createResultListener:(NSString *)listenerClassName {
+- (id<MBResultListener>) createResultListener:(NSString *)listenerClassName
+{
 	return nil;
 }
 
--(id<MBAction>) createAction:(NSString *)actionClassName {
+- (id<MBAction>) createAction:(NSString *)actionClassName
+{
 	if ([actionClassName isEqualToString:@"FireInitialOutcomes"]) {
 		return [[FireInitialOutcomes new] autorelease];
 	}
-    
-/*
+    /*
     else if ([actionClassName isEqualToString:@"MyCustomAction"]) {
         return [[MyCustomAction new] autorelease];
     }
-*/
-    
+     */
 	return nil;
 }
 
--(MBPage *) createPage:(MBPageDefinition *)definition 
-			  document:(MBDocument*) document 
-			  rootPath:(NSString*) rootPath 
-			 viewState:(MBViewState) viewState 
-		 withMaxBounds:(CGRect) bounds {
-    
+- (MBPage *) createPage:(MBPageDefinition *)definition document:(MBDocument*)document rootPath:(NSString*)rootPath viewState:(MBViewState)viewState withMaxBounds:(CGRect)bounds
+{
     // Home page (example)
-    if([@"PAGE-home" isEqualToString:definition.name]) {
+    if ([@"PAGE-home" isEqualToString:definition.name]) {
         CustomViewController *myViewController = [[[CustomViewController alloc] init] autorelease];
-        MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState]autorelease];
+        MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState] autorelease];
 		return page;
  	}
     
-    
-    return [super createPage:definition document:document rootPath:rootPath viewState: viewState withMaxBounds: bounds];
+    return [super createPage:definition document:document rootPath:rootPath viewState:viewState withMaxBounds:bounds];
 }
-
 
 @end

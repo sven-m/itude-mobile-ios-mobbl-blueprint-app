@@ -1,31 +1,14 @@
 <Configuration xmlns="http://itude.com/schemas/MB/2.0">
-    <Model>
-        <Domains>
-            <Include name="domains.xml"/>
-        </Domains>
-        <Documents>
-            <!-- ********************* Documents for Application Configuration ******************** -->
-            <Include name="DOC-system.xml"/>
-            <!-- ********************* Documents for your application ******************** -->
-            <Include name="documents.xml"/>
-        </Documents>
-    </Model>
-    <Controller>
-        <Actions>
-            <Include name="actions.xml"/>
-        </Actions>
-        <Wiring>
-            <Include name="outcomes.xml"/>
-            <Include name="OUTCOME-system.xml"/>
-        </Wiring>
-    </Controller>
-    <View>	
-        <Dialogs>
-            <Include name="dialogs.xml"/>
-            <!-- dialogs_mobbl is located in the mobbl framework -->
-            <Include name="dialogs_mobbl.xml"/>
-        </Dialogs>
-		<Include name="pages.xml"/>
-		<Include name="PAGE-exception.xml"/>
-    </View>
+    <Include name="domains.xml"/>
+    <!-- ********************* Documents for Application Configuration ******************** -->
+    <Include name="DOC-system.xml"/>
+    <!-- ********************* Documents for your application ******************** -->
+    <Include name="documents.xml"/>
+    <Include name="actions.xml"/>
+    <Include name="outcomes.xml"/>
+    <Include name="OUTCOME-system.xml"/>
+    <Include name="dialogs.xml"/>
+    <!-- dialogs_mobbl is located in the mobbl framework -->
+    <Include name="dialogs_mobbl.xml"/>
+    <Include name="pages.xml"/>
 </Configuration>

@@ -16,13 +16,9 @@
 
 #import "CustomSplashScreen.h"
 
-@interface CustomApplicationController : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate> {
-	UIWindow *_window;
-    CustomSplashScreen *_splashScreen;
-}
+@interface CustomApplicationController : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate>
 
 @property (nonatomic, retain) UIWindow *window;
 @property (nonatomic, retain) CustomSplashScreen *splashScreen;
-
 
 @end
