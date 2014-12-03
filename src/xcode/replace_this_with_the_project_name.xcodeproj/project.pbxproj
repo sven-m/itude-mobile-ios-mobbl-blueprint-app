@@ -604,7 +604,7 @@
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "mobbl-blueprint-app/Supporting Files/replace_this_with_the_project_name.pch";
+				GCC_PREFIX_HEADER = "replace_this_with_the_project_name/Supporting Files/replace_this_with_the_project_name.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -613,7 +613,7 @@
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/replace_this_with_the_project_name-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/replace_this_with_the_project_name/Supporting Files/replace_this_with_the_project_name-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
@@ -638,7 +638,7 @@
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "mobbl-blueprint-app/Supporting Files/replace_this_with_the_project_name.pch";
+				GCC_PREFIX_HEADER = "replace_this_with_the_project_name/Supporting Files/replace_this_with_the_project_name.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
@@ -646,7 +646,7 @@
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/replace_this_with_the_project_name-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/replace_this_with_the_project_name/Supporting Files/replace_this_with_the_project_name-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
@@ -759,7 +759,7 @@
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "mobbl-blueprint-app/Supporting Files/replace_this_with_the_project_name.pch";
+				GCC_PREFIX_HEADER = "replace_this_with_the_project_name/Supporting Files/replace_this_with_the_project_name.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = DEBUGMOBBL;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
@@ -767,7 +767,7 @@
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/replace_this_with_the_project_name-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/replace_this_with_the_project_name/Supporting Files/replace_this_with_the_project_name-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
