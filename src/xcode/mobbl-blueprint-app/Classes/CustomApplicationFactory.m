@@ -18,7 +18,7 @@
 // Controllers
 #import "replace_this_with_the_class_prefixCustomViewController.h"
 // Actions
-#import "FireInitialOutcomes.h"
+#import "replace_this_with_the_class_prefixFireInitialOutcomes.h"
 
 @implementation CustomApplicationFactory
 
@@ -30,7 +30,7 @@
 - (id<MBAction>) createAction:(NSString *)actionClassName
 {
 	if ([actionClassName isEqualToString:@"FireInitialOutcomes"]) {
-		return [[FireInitialOutcomes new] autorelease];
+		return [[replace_this_with_the_class_prefixFireInitialOutcomes new] autorelease];
 	}
     /*
     else if ([actionClassName isEqualToString:@"MyCustomAction"]) {

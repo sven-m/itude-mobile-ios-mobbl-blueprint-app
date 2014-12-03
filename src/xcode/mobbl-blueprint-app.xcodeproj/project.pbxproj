@@ -19,7 +19,7 @@
 		C71AC209183379F300A189F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71AC208183379F300A189F1 /* AVFoundation.framework */; };
 		C71AC20B18337A1000A189F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71AC20A18337A1000A189F1 /* QuartzCore.framework */; };
 		C73339A718AD169C00B85665 /* dialogs_mobbl.xml in Resources */ = {isa = PBXBuildFile; fileRef = C73339A618AD169C00B85665 /* dialogs_mobbl.xml */; };
-		C74DAAA5183269D400580179 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA4F183269D300580179 /* FireInitialOutcomes.m */; };
+		C74DAAA5183269D400580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA4F183269D300580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.m */; };
 		C74DAAA8183269D400580179 /* CustomApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA56183269D300580179 /* CustomApplicationController.m */; };
 		C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA58183269D300580179 /* CustomApplicationFactory.m */; };
 		C74DAAAE183269D400580179 /* replace_this_with_the_class_prefixCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA69183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.m */; };
@@ -98,8 +98,8 @@
 		C71AC208183379F300A189F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C71AC20A18337A1000A189F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C73339A618AD169C00B85665 /* dialogs_mobbl.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = dialogs_mobbl.xml; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/dialogs_mobbl.xml"; sourceTree = "<group>"; };
-		C74DAA4E183269D300580179 /* FireInitialOutcomes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireInitialOutcomes.h; sourceTree = "<group>"; };
-		C74DAA4F183269D300580179 /* FireInitialOutcomes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireInitialOutcomes.m; sourceTree = "<group>"; };
+		C74DAA4E183269D300580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_class_prefixFireInitialOutcomes.h; sourceTree = "<group>"; };
+		C74DAA4F183269D300580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixFireInitialOutcomes.m; sourceTree = "<group>"; };
 		C74DAA55183269D300580179 /* CustomApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomApplicationController.h; sourceTree = "<group>"; };
 		C74DAA56183269D300580179 /* CustomApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomApplicationController.m; sourceTree = "<group>"; };
 		C74DAA57183269D300580179 /* CustomApplicationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomApplicationFactory.h; sourceTree = "<group>"; };
@@ -259,8 +259,8 @@
 		C74DAA4D183269D300580179 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
-				C74DAA4E183269D300580179 /* FireInitialOutcomes.h */,
-				C74DAA4F183269D300580179 /* FireInitialOutcomes.m */,
+				C74DAA4E183269D300580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.h */,
+				C74DAA4F183269D300580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.m */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -601,7 +601,7 @@
 				17EAB8C319CB3F5F00164434 /* UIImage+CustomStyle.m in Sources */,
 				C74DAAB2183269D400580179 /* replace_this_with_the_class_prefixCustomStyleHandler.m in Sources */,
 				C74DAAA8183269D400580179 /* CustomApplicationController.m in Sources */,
-				C74DAAA5183269D400580179 /* FireInitialOutcomes.m in Sources */,
+				C74DAAA5183269D400580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.m in Sources */,
 				C74DAAAF183269D400580179 /* replace_this_with_the_class_prefixCustomSplashScreen.m in Sources */,
 				C74DAAAE183269D400580179 /* replace_this_with_the_class_prefixCustomViewController.m in Sources */,
 				C74DAAD6183269D400580179 /* main.m in Sources */,

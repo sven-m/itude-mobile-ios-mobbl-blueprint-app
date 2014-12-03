@@ -14,6 +14,18 @@
  * limitations under the License.
  */
 
-@interface FireInitialOutcomes : MBFireInitialOutcomes
+#import "replace_this_with_the_class_prefixFireInitialOutcomes.h"
+
+@implementation replace_this_with_the_class_prefixFireInitialOutcomes
+
+- (NSString *)documentName
+{
+    return [super documentName];
+}
+
+-(MBOutcome *)execute:(MBDocument *)document withPath:(NSString *)path
+{
+    return [super execute:document withPath:path];
+}
 
 @end
