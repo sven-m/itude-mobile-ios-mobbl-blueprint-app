@@ -199,7 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				C73339A618AD169C00B85665 /* dialogs_mobbl.xml */,
-				C74DAA4B183269D300580179 /* mobbl-blueprint-app */,
+				C74DAA4B183269D300580179 /* replace_this_with_the_project_name */,
 				03F239B413C6FFFB00E9BD32 /* Frameworks */,
 				03F239B213C6FFFB00E9BD32 /* Products */,
 				C7D44562188D223200052D2C /* Resources */,
@@ -229,14 +229,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C74DAA4B183269D300580179 /* mobbl-blueprint-app */ = {
+		C74DAA4B183269D300580179 /* replace_this_with_the_project_name */ = {
 			isa = PBXGroup;
 			children = (
 				C74DAA4C183269D300580179 /* Classes */,
 				C74DAA74183269D300580179 /* Resources */,
 				C74DAA9F183269D400580179 /* Supporting Files */,
 			);
-			path = "mobbl-blueprint-app";
+			path = replace_this_with_the_project_name;
 			sourceTree = "<group>";
 		};
 		C74DAA4C183269D300580179 /* Classes */ = {
