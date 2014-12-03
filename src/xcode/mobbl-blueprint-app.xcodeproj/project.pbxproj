@@ -143,7 +143,7 @@
 		C74DAA9C183269D400580179 /* Tab_Info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Info@2x.png"; sourceTree = "<group>"; };
 		C74DAA9E183269D400580179 /* texts-nl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "texts-nl.xml"; sourceTree = "<group>"; };
 		C74DAAA2183269D400580179 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mobbl-blueprint-app-Info.plist"; sourceTree = "<group>"; };
+		C74DAAA3183269D400580179 /* replace_this_with_the_project_name-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "replace_this_with_the_project_name-Info.plist"; sourceTree = "<group>"; };
 		C74DAAA4183269D400580179 /* replace_this_with_the_project_name.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_project_name.pch; sourceTree = "<group>"; };
 		C75A44E818729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_class_prefixCustomDataHandler.h; sourceTree = "<group>"; };
 		C75A44E918729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixCustomDataHandler.m; sourceTree = "<group>"; };
@@ -413,7 +413,7 @@
 			isa = PBXGroup;
 			children = (
 				C74DAAA2183269D400580179 /* main.m */,
-				C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */,
+				C74DAAA3183269D400580179 /* replace_this_with_the_project_name-Info.plist */,
 				C74DAAA4183269D400580179 /* replace_this_with_the_project_name.pch */,
 			);
 			path = "Supporting Files";
@@ -613,7 +613,7 @@
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/mobbl-blueprint-app-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/replace_this_with_the_project_name-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
@@ -646,7 +646,7 @@
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/mobbl-blueprint-app-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/replace_this_with_the_project_name-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
@@ -767,7 +767,7 @@
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Headers\"",
 					"\"${PROJECT_DIR}/../../target/xcode-deps/frameworks/${BUILD_STYLE}/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/PrivateHeaders\"",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/mobbl-blueprint-app-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/mobbl-blueprint-app/Supporting Files/replace_this_with_the_project_name-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
