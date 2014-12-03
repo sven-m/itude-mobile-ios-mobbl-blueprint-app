@@ -61,7 +61,6 @@
 		C74DAAD4183269D400580179 /* texts-nl.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA9E183269D400580179 /* texts-nl.xml */; };
 		C74DAAD5183269D400580179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA0183269D400580179 /* InfoPlist.strings */; };
 		C74DAAD6183269D400580179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAAA2183269D400580179 /* main.m */; };
-		C74DAAD7183269D400580179 /* mobbl-blueprint-app-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */; };
 		C75A44EA18729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A44E918729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m */; };
 		C7D4451E188D0CA800052D2C /* mobbl-core-framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D4451D188D0CA800052D2C /* mobbl-core-framework.framework */; };
 		C7D44531188D1F4B00052D2C /* backButtonArrowInverted.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44521188D1F4B00052D2C /* backButtonArrowInverted.png */; };
@@ -489,7 +488,7 @@
 		03F239A813C6FFFA00E9BD32 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Itude Mobile B.V., The Netherlands";
 			};
 			buildConfigurationList = 03F239AB13C6FFFB00E9BD32 /* Build configuration list for PBXProject "mobbl-blueprint-app" */;
@@ -557,7 +556,6 @@
 				C74DAAC4183269D400580179 /* LaunchImage.png in Resources */,
 				C74DAABF183269D400580179 /* ApplicationIcon.png in Resources */,
 				C74DAACB183269D400580179 /* Icon_Tab_home@2x.png in Resources */,
-				C74DAAD7183269D400580179 /* mobbl-blueprint-app-Info.plist in Resources */,
 				C74DAAC3183269D400580179 /* Background-default@2x.png in Resources */,
 				C74DAAC1183269D400580179 /* iTunesArtwork.png in Resources */,
 				C74DAAC8183269D400580179 /* Icon_Tab_cart.png.png in Resources */,
@@ -628,7 +626,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)",
@@ -664,7 +661,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)",
@@ -700,7 +696,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = armv7;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -731,7 +726,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = armv7;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -759,7 +753,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = armv7;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -788,7 +781,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
