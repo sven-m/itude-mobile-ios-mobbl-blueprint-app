@@ -16,7 +16,7 @@
 		<string>iTunesArtwork.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.itude.mobile.ios.mobbl.mobbl-blueprint-app</string>
+	<string>replace_this_with_the_bundle_identifier</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
