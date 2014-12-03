@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-#import "CustomStyleHandler.h"
+#import "replace_this_with_the_class_prefixCustomStyleHandler.h"
 #import "UIImage+CustomStyle.h"
 
-@implementation CustomStyleHandler
+@implementation replace_this_with_the_class_prefixCustomStyleHandler
 
 - (void) applyStyle:(UIView *)contentView page:(MBPage *)page viewState:(MBViewState)viewState
 {    

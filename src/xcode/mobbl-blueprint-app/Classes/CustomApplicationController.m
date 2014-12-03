@@ -16,7 +16,7 @@
 
 #import "CustomApplicationController.h"
 #import "CustomApplicationFactory.h"
-#import "CustomStyleHandler.h"
+#import "replace_this_with_the_class_prefixCustomStyleHandler.h"
 // #import "CustomDataHandler.h"
 
 @implementation CustomApplicationController
@@ -33,7 +33,7 @@
 	// Uncomment this in development/test mode to get the stacktrace on-screen
 	//InstallUncaughtExceptionHandler();
 
-    [[MBViewBuilderFactory sharedInstance] setStyleHandler:[[CustomStyleHandler new] autorelease]];
+    [[MBViewBuilderFactory sharedInstance] setStyleHandler:[[replace_this_with_the_class_prefixCustomStyleHandler new] autorelease]];
     
     // Uncomment to register a custom datahandler
     // [[MBDataManagerService sharedInstance] registerDataHandler:[[CustomDataHandler new] autorelease] withName:@"CustomDataHandler"];

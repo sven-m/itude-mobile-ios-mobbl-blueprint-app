@@ -24,7 +24,7 @@
 		C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA58183269D300580179 /* CustomApplicationFactory.m */; };
 		C74DAAAE183269D400580179 /* replace_this_with_the_class_prefixCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA69183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.m */; };
 		C74DAAAF183269D400580179 /* replace_this_with_the_class_prefixCustomSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA6C183269D300580179 /* replace_this_with_the_class_prefixCustomSplashScreen.m */; };
-		C74DAAB2183269D400580179 /* CustomStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA73183269D300580179 /* CustomStyleHandler.m */; };
+		C74DAAB2183269D400580179 /* replace_this_with_the_class_prefixCustomStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA73183269D300580179 /* replace_this_with_the_class_prefixCustomStyleHandler.m */; };
 		C74DAAB3183269D400580179 /* actions.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA76183269D300580179 /* actions.xml */; };
 		C74DAAB4183269D400580179 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA77183269D300580179 /* config.xml */; };
 		C74DAAB5183269D400580179 /* dialogs.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA78183269D300580179 /* dialogs.xml */; };
@@ -108,8 +108,8 @@
 		C74DAA69183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixCustomViewController.m; sourceTree = "<group>"; };
 		C74DAA6B183269D300580179 /* replace_this_with_the_class_prefixCustomSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_class_prefixCustomSplashScreen.h; sourceTree = "<group>"; };
 		C74DAA6C183269D300580179 /* replace_this_with_the_class_prefixCustomSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixCustomSplashScreen.m; sourceTree = "<group>"; };
-		C74DAA72183269D300580179 /* CustomStyleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleHandler.h; sourceTree = "<group>"; };
-		C74DAA73183269D300580179 /* CustomStyleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStyleHandler.m; sourceTree = "<group>"; };
+		C74DAA72183269D300580179 /* replace_this_with_the_class_prefixCustomStyleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_class_prefixCustomStyleHandler.h; sourceTree = "<group>"; };
+		C74DAA73183269D300580179 /* replace_this_with_the_class_prefixCustomStyleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixCustomStyleHandler.m; sourceTree = "<group>"; };
 		C74DAA76183269D300580179 /* actions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = actions.xml; sourceTree = "<group>"; };
 		C74DAA77183269D300580179 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
 		C74DAA78183269D300580179 /* dialogs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dialogs.xml; sourceTree = "<group>"; };
@@ -296,8 +296,8 @@
 		C74DAA6D183269D300580179 /* StyleHandling */ = {
 			isa = PBXGroup;
 			children = (
-				C74DAA72183269D300580179 /* CustomStyleHandler.h */,
-				C74DAA73183269D300580179 /* CustomStyleHandler.m */,
+				C74DAA72183269D300580179 /* replace_this_with_the_class_prefixCustomStyleHandler.h */,
+				C74DAA73183269D300580179 /* replace_this_with_the_class_prefixCustomStyleHandler.m */,
 				17EAB8C119CB3F5F00164434 /* UIImage+CustomStyle.h */,
 				17EAB8C219CB3F5F00164434 /* UIImage+CustomStyle.m */,
 			);
@@ -599,7 +599,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17EAB8C319CB3F5F00164434 /* UIImage+CustomStyle.m in Sources */,
-				C74DAAB2183269D400580179 /* CustomStyleHandler.m in Sources */,
+				C74DAAB2183269D400580179 /* replace_this_with_the_class_prefixCustomStyleHandler.m in Sources */,
 				C74DAAA8183269D400580179 /* CustomApplicationController.m in Sources */,
 				C74DAAA5183269D400580179 /* FireInitialOutcomes.m in Sources */,
 				C74DAAAF183269D400580179 /* replace_this_with_the_class_prefixCustomSplashScreen.m in Sources */,

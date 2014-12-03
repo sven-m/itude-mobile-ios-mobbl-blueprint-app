@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-@interface CustomStyleHandler : MBStyleHandler
+@interface replace_this_with_the_class_prefixCustomStyleHandler : MBStyleHandler
 
 @end
