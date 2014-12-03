@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-#import "CustomSplashScreen.h"
+#import "replace_this_with_the_class_prefixCustomSplashScreen.h"
 
 @interface CustomApplicationController : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate>
 
 @property (nonatomic, retain) UIWindow *window;
-@property (nonatomic, retain) CustomSplashScreen *splashScreen;
+@property (nonatomic, retain) replace_this_with_the_class_prefixCustomSplashScreen *splashScreen;
 
 @end

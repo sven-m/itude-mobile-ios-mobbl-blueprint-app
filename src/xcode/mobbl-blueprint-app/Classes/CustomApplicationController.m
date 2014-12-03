@@ -21,10 +21,10 @@
 
 @implementation CustomApplicationController
 
-- (CustomSplashScreen *)splashScreen
+- (replace_this_with_the_class_prefixCustomSplashScreen *)splashScreen
 {
     if (!_splashScreen)
-        _splashScreen = [[CustomSplashScreen alloc] initWithImage:[UIImage imageNamed:@"LaunchImage.png"]];
+        _splashScreen = [[replace_this_with_the_class_prefixCustomSplashScreen alloc] initWithImage:[UIImage imageNamed:@"LaunchImage.png"]];
     return _splashScreen;
 }
 

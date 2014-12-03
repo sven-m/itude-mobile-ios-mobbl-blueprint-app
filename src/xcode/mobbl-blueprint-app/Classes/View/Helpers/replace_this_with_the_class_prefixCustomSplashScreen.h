@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CustomSplashScreen : UIImageView
+@interface replace_this_with_the_class_prefixCustomSplashScreen : UIImageView
 
 @property (nonatomic) float activityIndicatorSize;
 

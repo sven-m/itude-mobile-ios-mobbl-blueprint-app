@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-#import "CustomSplashScreen.h"
+#import "replace_this_with_the_class_prefixCustomSplashScreen.h"
 
-@interface CustomSplashScreen()
+@interface replace_this_with_the_class_prefixCustomSplashScreen()
 @property (nonatomic, retain) UIActivityIndicatorView *activityIndicator;
 @end
 
-@implementation CustomSplashScreen
+@implementation replace_this_with_the_class_prefixCustomSplashScreen
 
 - (id)initWithImage:(UIImage *)image
 {
