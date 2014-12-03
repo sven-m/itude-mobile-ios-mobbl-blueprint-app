@@ -22,7 +22,7 @@
 		C74DAAA5183269D400580179 /* FireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA4F183269D300580179 /* FireInitialOutcomes.m */; };
 		C74DAAA8183269D400580179 /* CustomApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA56183269D300580179 /* CustomApplicationController.m */; };
 		C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA58183269D300580179 /* CustomApplicationFactory.m */; };
-		C74DAAAE183269D400580179 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA69183269D300580179 /* CustomViewController.m */; };
+		C74DAAAE183269D400580179 /* replace_this_with_the_class_prefixCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA69183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.m */; };
 		C74DAAAF183269D400580179 /* CustomSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA6C183269D300580179 /* CustomSplashScreen.m */; };
 		C74DAAB2183269D400580179 /* CustomStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA73183269D300580179 /* CustomStyleHandler.m */; };
 		C74DAAB3183269D400580179 /* actions.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA76183269D300580179 /* actions.xml */; };
@@ -104,8 +104,8 @@
 		C74DAA56183269D300580179 /* CustomApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomApplicationController.m; sourceTree = "<group>"; };
 		C74DAA57183269D300580179 /* CustomApplicationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomApplicationFactory.h; sourceTree = "<group>"; };
 		C74DAA58183269D300580179 /* CustomApplicationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomApplicationFactory.m; sourceTree = "<group>"; };
-		C74DAA68183269D300580179 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
-		C74DAA69183269D300580179 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		C74DAA68183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_class_prefixCustomViewController.h; sourceTree = "<group>"; };
+		C74DAA69183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixCustomViewController.m; sourceTree = "<group>"; };
 		C74DAA6B183269D300580179 /* CustomSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSplashScreen.h; sourceTree = "<group>"; };
 		C74DAA6C183269D300580179 /* CustomSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSplashScreen.m; sourceTree = "<group>"; };
 		C74DAA72183269D300580179 /* CustomStyleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleHandler.h; sourceTree = "<group>"; };
@@ -278,8 +278,8 @@
 		C74DAA67183269D300580179 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C74DAA68183269D300580179 /* CustomViewController.h */,
-				C74DAA69183269D300580179 /* CustomViewController.m */,
+				C74DAA68183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.h */,
+				C74DAA69183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -603,7 +603,7 @@
 				C74DAAA8183269D400580179 /* CustomApplicationController.m in Sources */,
 				C74DAAA5183269D400580179 /* FireInitialOutcomes.m in Sources */,
 				C74DAAAF183269D400580179 /* CustomSplashScreen.m in Sources */,
-				C74DAAAE183269D400580179 /* CustomViewController.m in Sources */,
+				C74DAAAE183269D400580179 /* replace_this_with_the_class_prefixCustomViewController.m in Sources */,
 				C74DAAD6183269D400580179 /* main.m in Sources */,
 				C75A44EA18729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m in Sources */,
 				C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */,

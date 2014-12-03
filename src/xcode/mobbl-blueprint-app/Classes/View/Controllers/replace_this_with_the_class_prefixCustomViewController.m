@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-#import "CustomViewController.h"
+#import "replace_this_with_the_class_prefixCustomViewController.h"
 
-@implementation CustomViewController
+@implementation replace_this_with_the_class_prefixCustomViewController
 
 - (NSString*) title
 {

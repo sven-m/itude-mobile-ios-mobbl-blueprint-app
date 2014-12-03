@@ -16,7 +16,7 @@
 
 #import "CustomApplicationFactory.h"
 // Controllers
-#import "CustomViewController.h"
+#import "replace_this_with_the_class_prefixCustomViewController.h"
 // Actions
 #import "FireInitialOutcomes.h"
 
@@ -44,7 +44,7 @@
 {
     // Home page (example)
     if ([@"PAGE-home" isEqualToString:definition.name]) {
-        CustomViewController *myViewController = [[[CustomViewController alloc] init] autorelease];
+        replace_this_with_the_class_prefixCustomViewController *myViewController = [[[replace_this_with_the_class_prefixCustomViewController alloc] init] autorelease];
         MBPage *page = [[[MBPage alloc] initWithDefinition:definition withViewController:myViewController document:document rootPath:rootPath viewState: viewState] autorelease];
 		return page;
  	}

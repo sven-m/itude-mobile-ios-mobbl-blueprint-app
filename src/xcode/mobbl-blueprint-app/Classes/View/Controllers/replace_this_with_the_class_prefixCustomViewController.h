@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-@interface CustomViewController : MBBasicViewController
+@interface replace_this_with_the_class_prefixCustomViewController : MBBasicViewController
 
 @end
