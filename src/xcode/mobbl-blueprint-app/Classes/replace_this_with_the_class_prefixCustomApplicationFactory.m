@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-#import "CustomApplicationFactory.h"
+#import "replace_this_with_the_class_prefixCustomApplicationFactory.h"
 // Controllers
 #import "replace_this_with_the_class_prefixCustomViewController.h"
 // Actions
 #import "replace_this_with_the_class_prefixFireInitialOutcomes.h"
 
-@implementation CustomApplicationFactory
+@implementation replace_this_with_the_class_prefixCustomApplicationFactory
 
 - (id<MBResultListener>) createResultListener:(NSString *)listenerClassName
 {

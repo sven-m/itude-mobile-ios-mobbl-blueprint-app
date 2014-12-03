@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-@interface CustomApplicationFactory : MBApplicationFactory
+@interface replace_this_with_the_class_prefixCustomApplicationFactory : MBApplicationFactory
 
 @end

@@ -15,7 +15,7 @@
  */
 
 #import "CustomApplicationController.h"
-#import "CustomApplicationFactory.h"
+#import "replace_this_with_the_class_prefixCustomApplicationFactory.h"
 #import "replace_this_with_the_class_prefixCustomStyleHandler.h"
 // #import "CustomDataHandler.h"
 
@@ -39,7 +39,7 @@
     // [[MBDataManagerService sharedInstance] registerDataHandler:[[CustomDataHandler new] autorelease] withName:@"CustomDataHandler"];
     
     // registers a factory that creates custom ViewControllers and Custom Actions
-    [MBApplicationFactory setSharedInstance:[[CustomApplicationFactory new] autorelease]];
+    [MBApplicationFactory setSharedInstance:[[replace_this_with_the_class_prefixCustomApplicationFactory new] autorelease]];
     
     [self performSelectorOnMainThread:@selector(startApplication:) withObject:[MBApplicationFactory sharedInstance] waitUntilDone:YES];
 }

@@ -21,7 +21,7 @@
 		C73339A718AD169C00B85665 /* dialogs_mobbl.xml in Resources */ = {isa = PBXBuildFile; fileRef = C73339A618AD169C00B85665 /* dialogs_mobbl.xml */; };
 		C74DAAA5183269D400580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA4F183269D300580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.m */; };
 		C74DAAA8183269D400580179 /* CustomApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA56183269D300580179 /* CustomApplicationController.m */; };
-		C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA58183269D300580179 /* CustomApplicationFactory.m */; };
+		C74DAAA9183269D400580179 /* replace_this_with_the_class_prefixCustomApplicationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA58183269D300580179 /* replace_this_with_the_class_prefixCustomApplicationFactory.m */; };
 		C74DAAAE183269D400580179 /* replace_this_with_the_class_prefixCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA69183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.m */; };
 		C74DAAAF183269D400580179 /* replace_this_with_the_class_prefixCustomSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA6C183269D300580179 /* replace_this_with_the_class_prefixCustomSplashScreen.m */; };
 		C74DAAB2183269D400580179 /* replace_this_with_the_class_prefixCustomStyleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAA73183269D300580179 /* replace_this_with_the_class_prefixCustomStyleHandler.m */; };
@@ -102,8 +102,8 @@
 		C74DAA4F183269D300580179 /* replace_this_with_the_class_prefixFireInitialOutcomes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixFireInitialOutcomes.m; sourceTree = "<group>"; };
 		C74DAA55183269D300580179 /* CustomApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomApplicationController.h; sourceTree = "<group>"; };
 		C74DAA56183269D300580179 /* CustomApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomApplicationController.m; sourceTree = "<group>"; };
-		C74DAA57183269D300580179 /* CustomApplicationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomApplicationFactory.h; sourceTree = "<group>"; };
-		C74DAA58183269D300580179 /* CustomApplicationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomApplicationFactory.m; sourceTree = "<group>"; };
+		C74DAA57183269D300580179 /* replace_this_with_the_class_prefixCustomApplicationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_class_prefixCustomApplicationFactory.h; sourceTree = "<group>"; };
+		C74DAA58183269D300580179 /* replace_this_with_the_class_prefixCustomApplicationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixCustomApplicationFactory.m; sourceTree = "<group>"; };
 		C74DAA68183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_class_prefixCustomViewController.h; sourceTree = "<group>"; };
 		C74DAA69183269D300580179 /* replace_this_with_the_class_prefixCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixCustomViewController.m; sourceTree = "<group>"; };
 		C74DAA6B183269D300580179 /* replace_this_with_the_class_prefixCustomSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_class_prefixCustomSplashScreen.h; sourceTree = "<group>"; };
@@ -250,8 +250,8 @@
 				C74DAA4D183269D300580179 /* Actions */,
 				C74DAA55183269D300580179 /* CustomApplicationController.h */,
 				C74DAA56183269D300580179 /* CustomApplicationController.m */,
-				C74DAA57183269D300580179 /* CustomApplicationFactory.h */,
-				C74DAA58183269D300580179 /* CustomApplicationFactory.m */,
+				C74DAA57183269D300580179 /* replace_this_with_the_class_prefixCustomApplicationFactory.h */,
+				C74DAA58183269D300580179 /* replace_this_with_the_class_prefixCustomApplicationFactory.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -606,7 +606,7 @@
 				C74DAAAE183269D400580179 /* replace_this_with_the_class_prefixCustomViewController.m in Sources */,
 				C74DAAD6183269D400580179 /* main.m in Sources */,
 				C75A44EA18729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m in Sources */,
-				C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */,
+				C74DAAA9183269D400580179 /* replace_this_with_the_class_prefixCustomApplicationFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
