@@ -16,7 +16,7 @@
 
 #import "replace_this_with_the_class_prefixCustomSplashScreen.h"
 
-@interface CustomApplicationController : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate>
+@interface replace_this_with_the_class_prefixCustomApplicationController : MBApplicationController <UIApplicationDelegate, UIAlertViewDelegate>
 
 @property (nonatomic, retain) UIWindow *window;
 @property (nonatomic, retain) replace_this_with_the_class_prefixCustomSplashScreen *splashScreen;

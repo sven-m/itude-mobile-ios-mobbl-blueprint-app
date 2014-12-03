@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-#import "CustomApplicationController.h"
+#import "replace_this_with_the_class_prefixCustomApplicationController.h"
 #import "replace_this_with_the_class_prefixCustomApplicationFactory.h"
 #import "replace_this_with_the_class_prefixCustomStyleHandler.h"
 // #import "CustomDataHandler.h"
 
-@implementation CustomApplicationController
+@implementation replace_this_with_the_class_prefixCustomApplicationController
 
 - (replace_this_with_the_class_prefixCustomSplashScreen *)splashScreen
 {
