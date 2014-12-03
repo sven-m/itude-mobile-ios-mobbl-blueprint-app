@@ -59,7 +59,6 @@
 		C74DAAD2183269D400580179 /* Tab_Info.png in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA9B183269D400580179 /* Tab_Info.png */; };
 		C74DAAD3183269D400580179 /* Tab_Info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA9C183269D400580179 /* Tab_Info@2x.png */; };
 		C74DAAD4183269D400580179 /* texts-nl.xml in Resources */ = {isa = PBXBuildFile; fileRef = C74DAA9E183269D400580179 /* texts-nl.xml */; };
-		C74DAAD5183269D400580179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA0183269D400580179 /* InfoPlist.strings */; };
 		C74DAAD6183269D400580179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAAA2183269D400580179 /* main.m */; };
 		C75A44EA18729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A44E918729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m */; };
 		C7D4451E188D0CA800052D2C /* mobbl-core-framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D4451D188D0CA800052D2C /* mobbl-core-framework.framework */; };
@@ -143,7 +142,6 @@
 		C74DAA9B183269D400580179 /* Tab_Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Info.png; sourceTree = "<group>"; };
 		C74DAA9C183269D400580179 /* Tab_Info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Info@2x.png"; sourceTree = "<group>"; };
 		C74DAA9E183269D400580179 /* texts-nl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "texts-nl.xml"; sourceTree = "<group>"; };
-		C74DAAA1183269D400580179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C74DAAA2183269D400580179 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mobbl-blueprint-app-Info.plist"; sourceTree = "<group>"; };
 		C74DAAA4183269D400580179 /* mobbl-blueprint-app.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mobbl-blueprint-app.pch"; sourceTree = "<group>"; };
@@ -414,7 +412,6 @@
 		C74DAA9F183269D400580179 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C74DAAA0183269D400580179 /* InfoPlist.strings */,
 				C74DAAA2183269D400580179 /* main.m */,
 				C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */,
 				C74DAAA4183269D400580179 /* mobbl-blueprint-app.pch */,
@@ -496,21 +493,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
-				da,
-				de,
-				es,
-				fi,
-				fr,
-				it,
-				ja,
-				ko,
-				nl,
 				no,
-				pl,
-				pt,
-				ru,
-				sv,
 				zh_CN,
 				zh_TW,
 				English,
@@ -580,7 +563,6 @@
 				C74DAAC2183269D400580179 /* Background-default.png in Resources */,
 				C74DAABE183269D400580179 /* ApplicationIcon-72.png in Resources */,
 				C74DAAB9183269D400580179 /* pages.xml in Resources */,
-				C74DAAD5183269D400580179 /* InfoPlist.strings in Resources */,
 				C74DAAB3183269D400580179 /* actions.xml in Resources */,
 				C74DAACC183269D400580179 /* Icon_Tab_Info.png in Resources */,
 				C74DAAB6183269D400580179 /* documents.xml in Resources */,
@@ -609,17 +591,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C74DAAA0183269D400580179 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C74DAAA1183269D400580179 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		03F090F013C7550500A58AE7 /* Debug */ = {
