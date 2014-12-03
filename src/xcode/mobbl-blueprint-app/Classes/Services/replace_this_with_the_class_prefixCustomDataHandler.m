@@ -17,9 +17,9 @@
 //  CustomDataHandler.m
 //  Created by Robin Puthli on 20-12-2013.
 
-#import "CustomDataHandler.h"
+#import "replace_this_with_the_class_prefixCustomDataHandler.h"
 
-@implementation CustomDataHandler
+@implementation replace_this_with_the_class_prefixCustomDataHandler
 
 -(void)setHTTPHeaders:(NSMutableURLRequest *)request withArguments:(MBDocument *)args
 {

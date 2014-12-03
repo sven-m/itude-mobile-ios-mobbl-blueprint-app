@@ -17,6 +17,6 @@
 //  CustomDataHandler.h
 //  Created by Robin Puthli on 20-12-2013.
 
-@interface CustomDataHandler : MBRESTServiceDataHandler
+@interface replace_this_with_the_class_prefixCustomDataHandler : MBRESTServiceDataHandler
 
 @end

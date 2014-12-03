@@ -62,7 +62,7 @@
 		C74DAAD5183269D400580179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA0183269D400580179 /* InfoPlist.strings */; };
 		C74DAAD6183269D400580179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74DAAA2183269D400580179 /* main.m */; };
 		C74DAAD7183269D400580179 /* mobbl-blueprint-app-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */; };
-		C75A44EA18729D580014F708 /* CustomDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A44E918729D580014F708 /* CustomDataHandler.m */; };
+		C75A44EA18729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C75A44E918729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m */; };
 		C7D4451E188D0CA800052D2C /* mobbl-core-framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D4451D188D0CA800052D2C /* mobbl-core-framework.framework */; };
 		C7D44531188D1F4B00052D2C /* backButtonArrowInverted.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44521188D1F4B00052D2C /* backButtonArrowInverted.png */; };
 		C7D44532188D1F4B00052D2C /* backButtonArrowInverted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D44522188D1F4B00052D2C /* backButtonArrowInverted@2x.png */; };
@@ -148,8 +148,8 @@
 		C74DAAA2183269D400580179 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C74DAAA3183269D400580179 /* mobbl-blueprint-app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mobbl-blueprint-app-Info.plist"; sourceTree = "<group>"; };
 		C74DAAA4183269D400580179 /* mobbl-blueprint-app.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mobbl-blueprint-app.pch"; sourceTree = "<group>"; };
-		C75A44E818729D580014F708 /* CustomDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDataHandler.h; sourceTree = "<group>"; };
-		C75A44E918729D580014F708 /* CustomDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDataHandler.m; sourceTree = "<group>"; };
+		C75A44E818729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replace_this_with_the_class_prefixCustomDataHandler.h; sourceTree = "<group>"; };
+		C75A44E918729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = replace_this_with_the_class_prefixCustomDataHandler.m; sourceTree = "<group>"; };
 		C7D4451D188D0CA800052D2C /* mobbl-core-framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "mobbl-core-framework.framework"; path = "../../target/xcode-deps/frameworks/Debug/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework"; sourceTree = "<group>"; };
 		C7D44521188D1F4B00052D2C /* backButtonArrowInverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButtonArrowInverted.png; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonArrowInverted.png"; sourceTree = "<group>"; };
 		C7D44522188D1F4B00052D2C /* backButtonArrowInverted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backButtonArrowInverted@2x.png"; path = "../../target/xcode-deps/frameworks/Release/com.itude.mobile.ios.mobbl/mobbl-core-framework/mobbl-core-framework.framework/Versions/A/Resources/backButtonArrowInverted@2x.png"; sourceTree = "<group>"; };
@@ -426,8 +426,8 @@
 		C75A44E718729D580014F708 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				C75A44E818729D580014F708 /* CustomDataHandler.h */,
-				C75A44E918729D580014F708 /* CustomDataHandler.m */,
+				C75A44E818729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.h */,
+				C75A44E918729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -605,7 +605,7 @@
 				C74DAAAF183269D400580179 /* CustomSplashScreen.m in Sources */,
 				C74DAAAE183269D400580179 /* CustomViewController.m in Sources */,
 				C74DAAD6183269D400580179 /* main.m in Sources */,
-				C75A44EA18729D580014F708 /* CustomDataHandler.m in Sources */,
+				C75A44EA18729D580014F708 /* replace_this_with_the_class_prefixCustomDataHandler.m in Sources */,
 				C74DAAA9183269D400580179 /* CustomApplicationFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
